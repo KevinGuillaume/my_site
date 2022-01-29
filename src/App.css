@@ -1,7 +1,16 @@
 .App {
   text-align: center;
+  background:  #090e24;
 }
-
+body{
+  margin: 0;
+}
+h1 {
+  font-size: 72px;
+  background: -webkit-linear-gradient(white, limegreen);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -14,7 +23,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  
   min-height: 100vh;
   display: flex;
   flex-direction: column;
