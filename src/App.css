@@ -3,10 +3,26 @@
   width: 100%;
   height: 100%;
 }
-.content {
-  width: 100%;
-  height: 100%;
-  padding:3%;
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background:transparent;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(172, 172, 172);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
 
 body{
@@ -18,113 +34,38 @@ body{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  overflow: hidden;
+}
+.nav{
+  display: flex;
+  margin:10px;
 }
 
-.main-box {
-  margin:auto;
-  height:fit-content;
-  width:30%;
-  overflow: auto;
-  background: #dbdbdb9d;
-  border-radius: 25px;
-  
-}
-.projects-box {
-  height:90%;
-  width:68%;
-  margin:auto;
-  background: #dbdbdb9d;;
-  border-radius: 25px;
-  overflow: scroll;
-}
 
 .page-container {
   height: 100vh;
   width: 100vw;
   font-family: Ruda;
+  font-size: calc(10px + 2vmin);
+  color: rgba(42,42,51,1);
+}
+.page-content {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: left;
-  font-size: calc(10px + 2vmin);
-  color: rgba(42,42,51,1);
 }
-.projects-flex-container{
-  display:flex;
-  margin:15px;
-  width:95%;
-  flex-wrap: wrap;
-}
-.project{
-  margin-bottom:8%;
-  width:100%;
-  height:300px;
-  display: flex;
-  flex-direction: column;
-  
-}
-.p1{
-  background-image: url("./assets/fantasyMarkets.gif");
-  background-position: center center;
-  background-size: cover;
-  border-radius:10px;
-  border:none;
-  height:220px;
-  width:80%;
-}
-.p2{
-  background-image: url("./assets/blochainLuc.gif");
-  background-position: center center;
-  background-size: cover;
-  border-radius:10px;
-  border:none;
-  height:220px;
-  width:80%;
-}
-.p3{
-  background-image: url("./assets/Speedrun.png");
-  background-position: center center;
-  background-size: cover;
-  border-radius:10px;
-  border:none;
-  height:220px;
-  width:80%;
-}
-.p4{
-  background-image: url("./assets/keno.gif");
-  background-position: center center;
-  background-size: cover;
-  border-radius:10px;
-  border:none;
-  height:220px;
-  width:80%;
-}
-.projects-flex-container > div {
-  flex: 50%;
-}
-.project-gif{
-  width:190px;
-  height:220px;
-}
-.middle {
-  width:100%;
-  height:100%;
-  font-size: 1.2rem;
-  
-}
-.gm{
-  font-family: Skranji;
-  font-size: 2.5rem;
-}
-.projects-title{
-  text-align: center;
-  font-family: Skranji;
-  font-size: 2.5rem;
-}
-.job {
-  font-family: Ruda;
-  font-size:1.4rem;
 
+
+.item{
+  padding:2%;
+  border-radius:15px;
+  transition: transform .2s;
+  margin:10px;
+  border: 3px solid white;
+}
+.item:hover{
+  transform: scale(1.2);
 }
 
 

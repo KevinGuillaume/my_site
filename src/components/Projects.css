@@ -1,0 +1,85 @@
+.projects-flex-container{
+    display:flex;
+    margin:auto;
+    
+    width:95%;
+    height:9%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding:10px;
+    overflow: scroll;
+    border:1px solid greenyellow;
+  }
+  .project{
+    margin-bottom:8%;
+    width:90%;
+    height:300px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .project-exit{
+    width:100%;
+  }
+  .x-btn{
+    background-image: url("../assets/pre-exit.png");
+    background-position: center center;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: 0;
+    height: 20px;
+    width:20px;
+  }
+  .x-btn:hover{
+    background-image: url("../assets/exit-hover.png");
+    background-position: center center;
+    background-size: cover;
+  }
+  .projects-box {
+    height:80vh;
+    z-index: 9;
+    position: absolute;
+    width:70%;
+    margin:auto;
+    background: #dbdbdb9d;;
+    
+  }
+  .p1{
+    background-image: url("../assets/keno.gif");
+    background-position: center center;
+    background-size: cover;
+    border-radius:10px;
+    border:none;
+    height:220px;
+    width:80%;
+  }
+  .p2{
+    background-image: url("../assets/fantasyMarkets.gif");
+    background-position: center center;
+    background-size: cover;
+    border-radius:10px;
+    border:none;
+    height:220px;
+    width:80%;
+  }
+  .p3{
+    background-image: url("../assets/blochainLuc.gif");
+    background-position: center center;
+    background-size: cover;
+    border-radius:10px;
+    border:none;
+    height:220px;
+    width:80%;
+  }
+  .p4{
+    background-image: url("../assets/Speedrun.png");
+    background-position: center center;
+    background-size: cover;
+    border-radius:10px;
+    border:none;
+    height:220px;
+    width:80%;
+  }
+  .projects-flex-container > div {
+    flex: 50%;
+  }
