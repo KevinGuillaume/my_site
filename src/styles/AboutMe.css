@@ -1,0 +1,51 @@
+.content {
+    width: 100%;
+    height: 100%;
+    padding:3%;
+  }
+  .main-box {
+    margin:auto;
+    height:92%;
+    width:90%;
+    padding:10px;
+    overflow: hidden;
+    background: #dbdbdb9d;
+    border-radius: 10px;
+    
+  }
+  .header-exit{
+    width:100%;
+  }
+  .x-btn{
+    background-image: url("../assets/pre-exit.png");
+    background-position: center center;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: 0;
+    height: 15px;
+    width:15px;
+  }
+  .x-btn:hover{
+    background-image: url("../assets/exit-hover.png");
+    background-position: center center;
+    background-size: cover;
+  }
+  .back-border{
+    height: 80vh;
+    background: #ffffffb4;
+  }
+  .middle {
+    width:100%;
+    height:100%;
+    font-size: 1.2rem;
+  }
+  .gm{
+    font-family: Skranji;
+    font-size: 2.5rem;
+  }
+  .job {
+    font-family: Ruda;
+    font-size:1.4rem;
+  
+  }
+  

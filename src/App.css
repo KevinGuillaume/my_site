@@ -6,6 +6,7 @@
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
+  display:none;
 }
 
 /* Track */
@@ -23,12 +24,13 @@
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
+  
 }
 
 body{
   margin: 0;
   background: rgba(42,42,51,1);
-  background-image: url("./assets/walk-anime.gif");
+  background-image: url("./assets/pmnk.gif");
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -38,7 +40,10 @@ body{
 }
 .nav{
   display: flex;
-  margin:10px;
+  width: 50%;
+  justify-content: center;
+  margin: auto;
+  
 }
 
 
@@ -55,14 +60,22 @@ body{
   align-items: center;
   text-align: left;
 }
-
-
+.box-sizing{
+  height:80vh;
+}
+.link {
+  text-decoration: none;
+  color: black;
+}
 .item{
-  padding:2%;
+  padding:3%;
   border-radius:15px;
+  text-align: center;
   transition: transform .2s;
-  margin:10px;
+  margin:15px;
   border: 3px solid white;
+  cursor:  pointer;
+  
 }
 .item:hover{
   transform: scale(1.2);
