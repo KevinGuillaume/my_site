@@ -35,7 +35,7 @@ function AboutMe() {
                                 <div>Interested In 🔥:</div>
                                 <ul>
                                     <li>Web3 Development</li>
-                                    <li>Blockchain,DeDi,NFTs,DAOs</li>
+                                    <li>Blockchain,DeFi,NFTs,DAOs</li>
                                     <li>Basketball</li>
                                 </ul>
                                 <div>Experience 🏗️:</div>
