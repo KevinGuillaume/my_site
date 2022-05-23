@@ -2,16 +2,21 @@
     width: 100%;
     height: 100%;
     padding:3%;
+    overflow: auto;
   }
   .main-box {
     margin:auto;
     height:92%;
-    width:90%;
+    width:60vw;
     padding:10px;
     overflow: hidden;
     background: #dbdbdb9d;
     border-radius: 10px;
     
+  }
+  .bio{
+    width:80%;
+    font-size:1rem;
   }
   .header-exit{
     width:100%;
@@ -37,7 +42,7 @@
   .middle {
     width:100%;
     height:100%;
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   .gm{
     font-family: Skranji;

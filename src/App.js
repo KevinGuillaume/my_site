@@ -15,7 +15,7 @@ function App() {
         <div className="nav">
           <div className="item" onClick={()=> dispatch(changeAbout())}>about</div>
           <div className="item" onClick={() => dispatch(changeProjects())}>projects</div>
-          <div className="item"><a className= "link"href="https://github.com/KevinGuillaume">github</a></div>
+          <div className="item"><a className= "gitLink"href="https://github.com/KevinGuillaume">github</a></div>
           
           
         </div>
