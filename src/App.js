@@ -2,12 +2,29 @@ import React from 'react';
 import './App.css';
 import Projects from "./components/Projects"
 import AboutMe from "./components/AboutMe"
-import {useSelector,useDispatch} from 'react-redux'
+import {useDispatch} from 'react-redux'
 import { changeAbout, changeProjects } from './actions';
 
 function App() {
   const dispatch = useDispatch();
+  var counter = 1;
+  
+  const bringToFront = () =>{
+    var about = document.querySelector('#aboutme');
+    about.style.zIndex = ++counter;
+  }
+  const bringToFront2 = () =>{
+    var proj = document.querySelector('#projs');
+    proj.style.zIndex = ++counter;
+  }
+  
+  
+  
 
+  
+
+
+  
   return (
     <div className="App">
       
@@ -20,10 +37,10 @@ function App() {
           
         </div>
         <div className="page-content">
-          <div className="box-sizing">
+          <div id="aboutme" className="box-sizing" onClick={bringToFront}>
             <AboutMe />
           </div>
-          <div className ="box-sizing">
+          <div id="projs" className ="box-sizing" onClick={bringToFront2}>
             <Projects/>
           </div>
         </div>

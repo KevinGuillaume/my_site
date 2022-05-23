@@ -14,6 +14,7 @@ function AboutMe() {
             {canDisplayAbout ? 
             <Draggable>
                 <div className="back-border">
+                    
                     <div className="header-exit">
                             <div className="x-btn" onClick={()=> dispatch(changeAbout())}></div>
                     </div>
@@ -25,6 +26,7 @@ function AboutMe() {
                             
                                 <div className="job">Junior Software Engineer 💻</div>
                             </div>
+                            <div className="line"> </div>
                             <div className="bio">
                                 Thanks for checking out my site. 
                                 It started off completely different, then slowly transitioned to what it is now.
@@ -32,6 +34,7 @@ function AboutMe() {
                                 <br />
                                 <br/>
                                 <b>About me</b>
+                                
                                 <br/>
                                 I started coding around my high school days, but got a lot more into it during my senior year of high school.
                                 Since then I've been interested in creating projects and interacting with different frameworks,languages, or tools.
@@ -48,23 +51,24 @@ function AboutMe() {
                                 
                             </div>
                             <br />
-                            <br />
+                            
+                            <div className="line"> </div>
                             <div className="middle">
-                                <div>Currently Learning 📖:</div>
-                                <ul>
+                                <div className="label">Currently Learning 📖:</div>
+                                <ul className="item-list">
                                     <li>TypeScript</li>
                                     <li>Solidity/Ethers</li>
                                     <li>Hardhats</li>
                                     <li>Next.js</li>
-                                </ul>
-                                <div>Interested In 🔥:</div>
-                                <ul>
+                                </ul >
+                                <div className="label">Interested In 🔥:</div>
+                                <ul className="item-list">
                                     <li>Movies,Animes,Chess *Not that good at it haha*</li>
                                     <li>Blockchain,DeFi,NFTs,DAOs</li>
                                     <li>Basketball</li>
                                 </ul>
-                                <div>Experience 🏗️:</div>
-                                <ul>
+                                <div className="label">Experience 🏗️:</div>
+                                <ul className="item-list">
                                     <li>Web Developer Intern @ HBR Consulting</li>
                                     <li>Web Developer Blockchain@LUC</li>
                                 </ul>
