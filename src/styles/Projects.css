@@ -160,11 +160,28 @@
     color:white;
     border-radius:5px;
   }
+  .opt{
+    font-size:.9rem;
+    padding:8px;
+    background:#333333;
+    margin:5px;
+    cursor:pointer;
+    color:rgb(107, 107, 107);
+    border-radius:25px;
+    transition: .2s ease-in-out;
+  }
+  .opt:hover{
+    background:rgb(246, 245, 245);
+    color:rgb(94, 94, 94);
+  }
+  .cleanLink{
+    color: rgb(107, 107, 107);
+    text-decoration: none;
+  }
   .link2{
     color:blue;
   }
   .options{
     display:flex;
-    justify-content: space-between;
   }
   

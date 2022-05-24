@@ -32,8 +32,8 @@ function Projects() {
                                 </div> */}
 
                                 <div className='options'>
-                                    <div>Visit</div>
-                                    <div>Code</div>
+                                    <div className="opt"><a className="cleanLink" href="#">Visit</a></div>
+                                    <div className="opt"><a className="cleanLink" href="#">Code</a></div>
                                 </div>
                             </div>
                             <div className = "project">
@@ -48,8 +48,8 @@ function Projects() {
                                 application that allowed you and others to create and find games to play together. Sessions are made based on parameters set by the admin. Winner is determined at the end of the set time period.
                                  </div> */}
                                  <div className='options'>
-                                    <div>Visit</div>
-                                    <div>Code</div>
+                                    <div className="opt"><a className="cleanLink" href="https://playfantasymarket.web.app/">Visit</a></div>
+                                    <div className="opt"><a className="cleanLink" href="https://github.com/MoPatel30/Fantasy-Markets">Code</a></div>
                                 </div>
                             </div>
                             <div className = "project">
@@ -63,8 +63,8 @@ function Projects() {
                                     API's were used to help fetch coin prices listed at the top. 
                                 </div> */}
                                 <div className='options'>
-                                    <div>Visit</div>
-                                    <div>Code</div>
+                                    <div className="opt"><a className="cleanLink" href="https://blockchainluc.org/">Visit</a></div>
+                                    <div className="opt"><a className="cleanLink" href="https://github.com/MoPatel30/Blockchain-LUC-Website">Code</a></div>
                                 </div>
                             </div>
                             <div className = "project">
@@ -79,8 +79,8 @@ function Projects() {
                                 I've done some other challenges as well which are on my github. Big shoutout to <a className="link2" href="https://austingriffith.com/">@AustinGriffith</a> for this resource.
                                 </div> */}
                                 <div className='options'>
-                                    <div>Visit</div>
-                                    <div>Code</div>
+                                    <div className="opt"><a className="cleanLink" href="https://mystakingattempt-cozykev.surge.sh/">Visit</a></div>
+                                    <div className="opt"><a className="cleanLink" href="https://github.com/KevinGuillaume/StakingChallenge1">Code</a></div>
                                 </div>
                             </div>
                         </div>
