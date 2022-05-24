@@ -1,9 +1,9 @@
-.projects-flex-container{
-    display:flex;
-    margin:auto;
-    width:60vw;
+.projects-grid-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    width:70vw;
     height:92%;
-    align-items: center;
+    justify-items: center;
     flex-wrap: wrap;
     padding:10px;
     overflow: scroll;
@@ -11,9 +11,8 @@
     background:#dbdbdb9d;
   }
   .project{
-    margin-bottom:8%;
     width:90%;
-    height:300px;
+    height:400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -54,8 +53,8 @@
     background-size: cover;
     border-radius:10px;
     border:none;
-    height:220px;
-    width:80%;
+    height:250px;
+    width:100%;
   }
   .p2{
     background-image: url("../assets/fantasyMarkets.gif");
@@ -63,8 +62,8 @@
     background-size: cover;
     border-radius:10px;
     border:none;
-    height:220px;
-    width:80%;
+    height:250px;
+    width:100%;
   }
   .p3{
     background-image: url("../assets/blochainLuc.gif");
@@ -72,8 +71,8 @@
     background-size: cover;
     border-radius:10px;
     border:none;
-    height:220px;
-    width:80%;
+    height:250px;
+    width:100%;
   }
   .p4{
     background-image: url("../assets/Speedrun.png");
@@ -81,8 +80,8 @@
     background-size: cover;
     border-radius:10px;
     border:none;
-    height:220px;
-    width:80%;
+    height:250px;
+    width:100%;
   }
   .projects-flex-container > div {
     flex: 50%;
@@ -93,12 +92,79 @@
   }
   .tech-used{
     font-size: .8rem;
-    font-style: italic;
+    display:flex;
     text-align: center;
     width:80%;
     padding:1%;
   }
+  .vue{
+    padding:5px;
+    background:rgb(20, 171, 20);
+    margin:5px;
+    color:white;
+    border-radius:5px;
+  }
+  .firebase{
+    padding:5px;
+    background:rgb(204, 129, 23);
+    margin:5px;
+    color:white;
+    border-radius:5px;
+  }
+  .node{
+    padding:5px;
+    background:rgb(23, 204, 86);
+    margin:5px;
+    color:white;
+    border-radius:5px;
+  }
+  .react{
+    padding:5px;
+    background:#52b5d1;
+    margin:5px;
+    color:white;
+    border-radius:5px;
+  }
+  .redux{
+    padding:5px;
+    background:#764abc;
+    margin:5px;
+    color:white;
+    border-radius:5px;
+  }
+  .css{
+    padding:5px;
+    background:#c9c54e;
+    margin:5px;
+    color:white;
+    border-radius:5px;
+  }
+  .solidity{
+    padding:5px;
+    background:#2f2f2f;
+    margin:5px;
+    color:white;
+    border-radius:5px;
+  }
+  .hardhat{
+    padding:5px;
+    background:#cdd033;
+    margin:5px;
+    color:white;
+    border-radius:5px;
+  }
+  .ethers{
+    padding:5px;
+    background:#2535a0;
+    margin:5px;
+    color:white;
+    border-radius:5px;
+  }
   .link2{
     color:blue;
+  }
+  .options{
+    display:flex;
+    justify-content: space-between;
   }
   
