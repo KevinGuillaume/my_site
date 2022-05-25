@@ -19,6 +19,7 @@ function Projects() {
                         <div className="projects-grid-container">
                             <div className = "project">
                                 <div className ="p1"></div>
+                                
                                 <div className="tech-used">
                                     <div className ="vue">Vue</div> 
                                     <div className= "firebase">Firebase</div>

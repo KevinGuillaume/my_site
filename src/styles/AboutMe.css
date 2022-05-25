@@ -51,6 +51,7 @@
     background-size: cover;
   }
   .back-border{
+    animation: transitionIn 0.5s;
     height: 80vh;
     padding:10px;
     border-radius: 8px;
@@ -69,5 +70,17 @@
     font-family: Ruda;
     font-size:1.4rem;
   
+  }
+  /* Page click render animation */
+  @keyframes transitionIn {
+    from{
+      opacity: 0;
+      transform:rotateX(-10deg)
+    }
+    to{
+      opacity:1;
+      transform:rotateX(0)
+
+    }
   }
   
