@@ -38,7 +38,7 @@ function AboutMe() {
                                 <br/>
                                 I started coding around my high school days, but got a lot more into it during my senior year of high school.
                                 Since then I've been interested in creating projects and interacting with different frameworks,languages, or tools.
-                                I even graduated college a year early so that I can have time to really understand and learn concepts deeply.
+                                I'm trying to graduate college a year early so that I can have time to really understand and learn concepts deeply.
                                 It's always a great and rewarding feeling seeing something you envision come to life with just lines of codes. 
                                 <br />
                                 <br />
