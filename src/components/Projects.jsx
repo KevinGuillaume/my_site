@@ -19,7 +19,8 @@ function Projects() {
                         <div className="projects-grid-container">
                             <div className = "project">
                                 <div className ="p1"></div>
-                                
+                                <div className="pname">Keno Kozie Competencies</div>
+                                <div className="summary">Internal company knowledge sharing database</div>
                                 <div className="tech-used">
                                     <div className ="vue">Vue</div> 
                                     <div className= "firebase">Firebase</div>
@@ -39,6 +40,8 @@ function Projects() {
                             </div>
                             <div className = "project">
                                 <div className ="p2"></div>
+                                <div className="pname">Fantasy Markets</div>
+                                <div className="summary">Stock trading simulator game</div>
                                 <div className="tech-used">
                                     <div className= "react">React</div>
                                     <div className= "firebase">Firebase</div> 
@@ -55,6 +58,8 @@ function Projects() {
                             </div>
                             <div className = "project">
                                 <div className ="p3"></div>
+                                <div className="pname">Blockchain@LUC</div>
+                                <div className="summary">Club website for the blockchain club @LUC</div>
                                 <div className="tech-used">
                                     <div className= "react">React</div>
                                     <div className="css">HTML/CSS</div>
@@ -70,6 +75,8 @@ function Projects() {
                             </div>
                             <div className = "project">
                                 <div className ="p4"></div>
+                                <div className="pname">Staking Web App</div>
+                                <div className="summary">Solidity staking app deployed on testnet</div>
                                 <div className="tech-used">
                                     <div className="solidity">Solidity</div>
                                     <div className= "react">React</div>
