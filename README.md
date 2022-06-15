@@ -1,5 +1,7 @@
 # My Personal Site
+*In the process of a whole new site design*
 
-Fun little project to explore different ReactJS topics. Was able to use redux as well which helped me understand it better.
+Portfolio website to help put my work on display!
+
 
 Designed by me. Definetly an easy template to fork so feel free to do so!
