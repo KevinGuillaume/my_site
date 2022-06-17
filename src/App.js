@@ -2,6 +2,8 @@ import React from 'react';
 import './App.css';
 import Projects from "./components/Projects"
 import AboutMe from "./components/AboutMe"
+import Nav from "./components/Nav"
+import Particle from "./components/Particle"
 import {useDispatch} from 'react-redux'
 import { changeAbout, changeProjects } from './actions';
 
@@ -19,22 +21,29 @@ function App() {
   }
   
   
-  
-
+  {/* <div className="item" onClick={()=> dispatch(changeAbout())}>about</div>
+          <div className="item" onClick={() => dispatch(changeProjects())}>projects</div>
+          <div className="item"><a className= "gitLink"href="https://github.com/KevinGuillaume">github</a></div>
+ */}
   
 
 
   
   return (
+    
     <div className="App">
-      
+      <Particle />
       <div className="page-container">
-        <div className="nav">
-          <div className="item" onClick={()=> dispatch(changeAbout())}>about</div>
-          <div className="item" onClick={() => dispatch(changeProjects())}>projects</div>
-          <div className="item"><a className= "gitLink"href="https://github.com/KevinGuillaume">github</a></div>
+        <div className="top-label">
+          <div className="myName">Kevin Guillaume</div>
+          <div className="timeAndDisplay">
+              <div>Symbol</div>
+              <div>Time</div>
+          </div>
           
-          
+        </div>
+        <div className ="nav-bar">
+          <Nav />
         </div>
         <div className="page-content">
           <div id="aboutme" className="box-sizing" onClick={bringToFront}>

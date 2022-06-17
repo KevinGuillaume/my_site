@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.502a2828.css",
-    "main.js": "/static/js/main.86bd3e48.js",
+    "main.js": "/static/js/main.a8b2aa07.js",
     "static/media/pmnk.gif": "/static/media/pmnk.873b1889f0feacff35cb.gif",
     "static/media/fantasyMarkets.gif": "/static/media/fantasyMarkets.86428ad7031344420f6b.gif",
     "static/media/blochainLuc.gif": "/static/media/blochainLuc.3d598899e7421896844a.gif",
@@ -10,10 +10,10 @@
     "static/media/exit-hover.png": "/static/media/exit-hover.b151397a62a37f056b50.png",
     "index.html": "/index.html",
     "main.502a2828.css.map": "/static/css/main.502a2828.css.map",
-    "main.86bd3e48.js.map": "/static/js/main.86bd3e48.js.map"
+    "main.a8b2aa07.js.map": "/static/js/main.a8b2aa07.js.map"
   },
   "entrypoints": [
     "static/css/main.502a2828.css",
-    "static/js/main.86bd3e48.js"
+    "static/js/main.a8b2aa07.js"
   ]
 }

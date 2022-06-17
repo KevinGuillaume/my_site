@@ -29,14 +29,28 @@
 
 body{
   margin: 0;
-  background: rgba(42,42,51,1);
-  background-image: url("./assets/pmnk.gif");
+  background: #191C27;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   overflow: hidden;
+}
+.top-label{
+  color:white;
+  font-size: 1.4rem;
+  display:flex;
+  width:100%;
+
+}
+.myName{
+  width:100%;
+  text-align: left;
+}
+.timeAndDisplay{
+  text-align: right;
+  display:flex;
 }
 .nav{
   display: flex;

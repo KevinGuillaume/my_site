@@ -24,7 +24,7 @@ function AboutMe() {
                             <div className="greeting">
                                 <div className="gm">👋 gm, I'm Kevin </div>
                             
-                                <div className="job">Junior Software Engineer 💻</div>
+                                <div className="job">New Grad Software Engineer 💻</div>
                             </div>
                             <div className="line"> </div>
                             <div className="bio">
