@@ -14,10 +14,12 @@
     border: 1px solid white;
     border-radius:10px;
     transition: .2s ease-in-out;
+    
 }
 .square:hover{
     transform:scale(1.1);
 }
+
 .mail{
     background-image: url("../assets/icons/mailW.png");
     background-position: center center;
