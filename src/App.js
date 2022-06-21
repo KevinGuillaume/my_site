@@ -4,6 +4,7 @@ import Projects from "./components/Projects"
 import AboutMe from "./components/AboutMe"
 import Nav from "./components/Nav"
 import Particle from "./components/Particle"
+import Clock from "./components/Clock"
 import {useDispatch} from 'react-redux'
 import { changeAbout, changeProjects } from './actions';
 
@@ -38,7 +39,7 @@ function App() {
           <div className="myName">Kevin Guillaume</div>
           <div className="timeAndDisplay">
               <div>Symbol</div>
-              <div>Time</div>
+              <Clock />
           </div>
           
         </div>
