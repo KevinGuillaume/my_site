@@ -39,7 +39,7 @@ function App() {
         <div className="top-label">
           <div className="myName">Kevin Guillaume</div>
           <div className="timeAndDisplay">
-              <div>Symbol</div>
+              <div className="sun"></div> {/* Will have to use operator ? :  for future classes*/}
               <Clock />
           </div>
           

@@ -52,6 +52,18 @@ body{
   text-align: right;
   display:flex;
 }
+.sun{
+  background-image: url("./assets/icons/sunGray.png");
+    background-position: center center;
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+    margin:auto;
+    transition: 0.2s ease-in-out ;
+}
+.sun:hover{
+  background-image: url("./assets/icons/sunWhite.png");
+}
 .nav{
   display: flex;
   color:white;
