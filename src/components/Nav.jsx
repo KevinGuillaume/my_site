@@ -1,6 +1,9 @@
 import "../styles/Nav.css"
 
 function Nav(){
+    //to do:
+    //Make options bigger
+    //Create revolving selector for options
 
     return (
         <div>
