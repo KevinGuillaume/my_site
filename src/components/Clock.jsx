@@ -1,32 +1,22 @@
+import { useEffect, useState } from "react";
 
 function Clock(){
-  
-    
-    
-    let date = new Date()
-    let hours = date.getHours();
-    let minutes = date.getMinutes();
-    let AMorPM = "AM"
-    
+    const [clock,setClock] = useState()
+    useEffect(() =>{
+        setInterval(() =>{
+            const date = new Date()
+            setClock(date.toLocaleTimeString())
+        },1000)
+    },[])
 
-    if(hours == 0){
-        hours = 12
-    }
-    if(hours > 12){ 
-        hours = hours - 12;
-        AMorPM = "PM"
-    }
-
-    hours = (hours < 10) ? "0" + hours : hours;
-    minutes = (minutes < 10) ? "0" + minutes : minutes;
-
-    let time = hours + ":" + minutes + " " + AMorPM;
+   
+    
 
     
     
 
     return (
-        <div>{time}</div>    
+        <div style ={{fontSize: "25px"}}>{clock}</div>    
     )
 }
 export default Clock
