@@ -1,31 +1,25 @@
-import "../styles/Nav.css"
+import "../styles/Nav.css";
+import { Link } from "react-router-dom";
 
-function Nav(){
-    //to do:
-    //Make options bigger
-    //Create revolving selector for options
+function Nav() {
 
-    return (
-        <div>
-            <div className="squares-container">
-                <div className ="square">
-                    <div className="mail"></div>
-                </div>
-                <div className ="square">
-                    <div className="home"></div>
-                </div>
-                <div className ="square">
-                    <div className="folder"></div>
-                </div>
-                <div className ="square">
-                    <div className="tools"></div>
-                </div>
-            </div>
-            
-            
-            
-            
+  return (
+    <div>
+      <div className="squares-container">
+        <div className="square">
+        <Link to="./contact"><div className="mail"></div></Link>
         </div>
-    )
+        <div className="square">
+        <Link to="./aboutme"><div className="home"></div></Link>
+        </div>
+        <div className="square">
+        <Link to="./projects"><div className="folder"></div></Link>
+        </div>
+        <div className="square">
+        <Link to="./experience"><div className="tools"></div></Link>
+        </div>
+      </div>
+    </div>
+  );
 }
-export default Nav
+export default Nav;

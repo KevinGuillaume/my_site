@@ -1,0 +1,38 @@
+.Scaled-mail {
+  background-image: url("../assets/icons/mailW.png");
+  background-position: center center;
+  background-size: cover;
+  height: 120px;
+  width: 120px;
+  margin: auto;
+}
+.Scaled-home {
+    background-image: url("../assets/icons/houseW.png");
+    background-position: center center;
+    background-size: cover;
+    height: 120px;
+    width: 120px;
+    margin: auto;
+  }
+.Scaled-folder {
+  background-image: url("../assets/icons/folderW.png");
+  background-position: center center;
+  background-size: cover;
+  height: 120px;
+  width: 120px;
+  margin: auto;
+}
+.selected-page-box {
+  margin: 10px;
+  color: white;
+  background-color: #191c27;
+  box-shadow: 0px 3px 3px black;
+  padding: 22px;
+  width: 12%;
+  height: 20%;
+  border: 1px solid aliceblue;
+  border-radius: 10px;
+  transition: 0.2s ease-in-out;
+  margin-left: 8%;
+  margin-top: -5%;
+}
