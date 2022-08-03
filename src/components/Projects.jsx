@@ -3,7 +3,10 @@ import "../styles/Projects.css";
 import PageIcon from "./pageHelperComponents/PageIcon";
 import PageTabMenu from "./pageHelperComponents/PageTabMenu";
 import PageContent from "./pageHelperComponents/PageContent";
-
+/**
+ * Project component which is the project page that lists all projects and their information.
+ * @returns Project Page
+ */
 function Projects() {
   const [currTab, setCurrTab] = useState({});
 

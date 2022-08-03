@@ -1,6 +1,9 @@
 import "../styles/Nav.css";
 import { Link } from "react-router-dom";
-
+/**
+ * This is essentially the landing page which displays the different navigation pages as icons
+ * @returns the nav component
+ */
 function Nav() {
 
   return (

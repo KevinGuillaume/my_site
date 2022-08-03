@@ -1,6 +1,9 @@
 import Clock from "./Clock";
 import "../styles/Header.css"
-
+/**
+ * This is the top of the page with the clock component, the name, and sun/moon icon
+ * @returns Header component
+ */
 const Header = () => {
   return (
     <div className="top-label">

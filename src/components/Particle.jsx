@@ -2,7 +2,10 @@ import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 
 
-
+/**
+ * These are the particles floating around the screen. They can be edited.
+ * @returns Particles in the background
+ */
 function Particle(){
   const particlesInit = async (main) => {
     console.log(main);

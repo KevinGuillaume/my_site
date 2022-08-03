@@ -6,6 +6,7 @@
     margin:auto;
     text-align: center;
     font-size: 1rem;
+    box-shadow: 3px 3px 5px 0px rgb(173, 173, 173);
 }
 .React{
     background-color: #105cff85;
