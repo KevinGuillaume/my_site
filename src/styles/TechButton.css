@@ -1,0 +1,27 @@
+.tech-item{
+    padding:1%;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 0, 0.555);
+    width:100px;
+    margin:auto;
+    text-align: center;
+    font-size: 1rem;
+}
+.React{
+    background-color: #105cff85;
+}
+.Firebase{
+    background-color: rgba(255, 187, 0, 0.555);
+}
+.Node{
+    background-color: rgba(15, 194, 15, 0.555);
+}
+.Vue{
+    background-color: rgb(64, 184, 64, 0.555);
+}
+.Redux{
+    background-color: rgba(137, 43, 226, 0.555);
+}
+.API{
+    background-color: rgba(127, 255, 212, 0.555);
+}

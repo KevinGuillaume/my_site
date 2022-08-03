@@ -2,5 +2,9 @@
   margin-top:5%;
   height:100vh;
   width:100vw;
-  background-color: aliceblue;
+  background-color: #A1A1A1;
+}
+.selected-page-name{
+  color:white;
+  font-size:12px;
 }
