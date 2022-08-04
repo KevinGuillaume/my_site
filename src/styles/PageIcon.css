@@ -2,37 +2,43 @@
   background-image: url("../assets/icons/mailW.png");
   background-position: center center;
   background-size: cover;
-  height: 120px;
-  width: 120px;
+  height: 90%;
+  width: 80%;
   margin: auto;
 }
 .Scaled-home {
     background-image: url("../assets/icons/houseW.png");
     background-position: center center;
     background-size: cover;
-    height: 120px;
-    width: 120px;
+    height: 90%;
+    width: 80%;
     margin: auto;
   }
 .Scaled-folder {
   background-image: url("../assets/icons/folderW.png");
   background-position: center center;
   background-size: cover;
-  height: 120px;
-  width: 120px;
+  height: 90%;
+  width: 80%;
+  margin: auto;
+}
+.Scaled-tools {
+  background-image: url("../assets/icons/toolsW.png");
+  background-position: center center;
+  background-size: cover;
+  height: 100%;
+  width: 80%;
   margin: auto;
 }
 .selected-page-box {
-  margin: 10px;
   color: white;
   background-color: #191c27;
-  box-shadow: 0px 3px 3px black;
-  padding: 22px;
+  padding: 20px;
   width: 12%;
-  height: 20%;
-  border: 1px solid aliceblue;
+  height: 21%;
+  border: 1px solid rgb(255, 255, 255);
   border-radius: 10px;
   transition: 0.2s ease-in-out;
   margin-left: 8%;
-  margin-top: -5%;
+  
 }

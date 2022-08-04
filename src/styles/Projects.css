@@ -1,6 +1,6 @@
-.back-drop-container{
-  margin-top:5%;
-  height:100vh;
-  width:100vw;
-  background-color: aliceblue;
+.link-tag-style{
+    text-decoration: none;
+  }
+.tab-and-content-container{
+    display:flex;
 }

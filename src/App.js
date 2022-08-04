@@ -5,6 +5,7 @@ import AboutMe from "./components/AboutMe";
 import Nav from "./components/Nav";
 import Particle from "./components/Particle";
 import Header from "./components/Header";
+import Experience from "./components/Experience";
 import { Route, Routes } from "react-router-dom";
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
           <Route path='/' element={<Nav />} />
           <Route path='/aboutme' element={<AboutMe />} />
           <Route path='/projects' element={<Projects />} />
-          {/* <Route path='./experience' element={<Experience />} /> */}
+          <Route path='/experience' element={<Experience />} />
         </Routes>
       </div>
     </div>

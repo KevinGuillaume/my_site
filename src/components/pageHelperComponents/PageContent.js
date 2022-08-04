@@ -1,5 +1,6 @@
 import "../../styles/PageContent.css";
 import TechList from "../TechnologyComponents/TechList";
+import AnimatedPage from "../AnimatedPage";
 /**
  * This deals with what is rendered on each page depending on the selected tab
  * @param {*} props the pageDetails is passed in which holds the object and its specific page content title/pic/desc/technology
@@ -12,11 +13,11 @@ const PageContent = (props) => {
 
   return (
     <div className="selected-tab-content">
-      {content.title}
+      <div className="tab-title">{content.title}</div>
+
       {showPic ? <div className={`${content.pic}-bg`}></div> : ""}
       <br />
-      <div className='tab-description'>{content.desc}</div>
-      
+      <div className="tab-description">{content.desc}</div>
 
       {showPic && isTechEmpty ? <TechList techList={content.technology} /> : ""}
     </div>

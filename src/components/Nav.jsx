@@ -10,7 +10,7 @@ function Nav() {
     <div>
       <div className="squares-container">
         <div className="square">
-        <Link to="./contact"><div className="mail"></div></Link>
+        <a href="mailto:kevin24future@icloud.com"><div className="mail"></div></a>
         </div>
         <div className="square">
         <Link to="./aboutme"><div className="home"></div></Link>

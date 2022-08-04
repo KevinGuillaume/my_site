@@ -1,0 +1,30 @@
+.back-drop-container{
+    margin-top:5%;
+    height:100vh;
+    width:100vw;
+    background-color: #A1A1A1;
+  }
+  .selected-page-name{
+    color:white;
+    font-size:12px;
+  }
+  .page__title{
+    position: absolute;
+    font-size: 2.5rem;
+    left:25%;
+    color:white;
+    top:10%;
+  }
+  .arrow-back{
+    position: absolute;
+    top:8%;
+    padding:2%;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    color: white;
+    font-weight: 900;
+    font-size: 2rem;
+  }
+  .arrow-back:hover{
+    transform: translateX(-10px);
+  }

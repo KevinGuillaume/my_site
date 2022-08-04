@@ -1,0 +1,45 @@
+.back-drop-container {
+  margin-top: 5%;
+  height: 100vh;
+  width: 100vw;
+  background-color: #a1a1a1;
+}
+.selected-page-name {
+  color: white;
+  font-size: 12px;
+}
+.page__title {
+  font-size: 2.5rem;
+  left: 25%;
+  color: white;
+  bottom: 27%;
+}
+.arrow-back {
+  bottom: 18%;
+  left: 2%;
+  width: fit-content;
+  text-decoration: none;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+  color: white;
+  font-weight: 900;
+  font-size: 2.3rem;
+}
+.arrow-back:hover {
+  transform: translateX(-10px);
+}
+.no-decoration {
+  text-decoration: none;
+  color: white;
+}
+.arrow-title-container {
+  position: relative;
+  bottom:8%;
+  display: flex;
+  margin: 2%;
+  margin-bottom: -9%;
+}
+.arrow-title-container div {
+  margin-right: 20%;
+  padding: 5px;
+}
