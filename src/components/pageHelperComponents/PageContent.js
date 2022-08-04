@@ -1,6 +1,5 @@
 import "../../styles/PageContent.css";
 import TechList from "../TechnologyComponents/TechList";
-import AnimatedPage from "../AnimatedPage";
 /**
  * This deals with what is rendered on each page depending on the selected tab
  * @param {*} props the pageDetails is passed in which holds the object and its specific page content title/pic/desc/technology

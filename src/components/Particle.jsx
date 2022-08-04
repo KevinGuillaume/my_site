@@ -1,5 +1,6 @@
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
+import { useSelector } from "react-redux";
 
 
 /**
@@ -7,6 +8,9 @@ import { loadFull } from "tsparticles";
  * @returns Particles in the background
  */
 function Particle(){
+
+  const isDark = useSelector((state) => state.displayThemeReducer);
+
   const particlesInit = async (main) => {
     console.log(main);
 
@@ -53,7 +57,7 @@ function Particle(){
         },
         particles: {
           color: {
-            value: "#ffffff",
+            value: isDark ? 'FFFFFF' : "FFFF00",
           },
           links: {
             color: "#ffffff",
@@ -72,7 +76,7 @@ function Particle(){
               default: "bounce",
             },
             random: false,
-            speed: 0.5,
+            speed: 0.1,
             straight: false,
           },
           number: {
@@ -89,7 +93,7 @@ function Particle(){
             type: "circle",
           },
           size: {
-            value: { min: 1, max: 5 },
+            value: { min: 1, max: 3 } 
           },
         },
         detectRetina: true,

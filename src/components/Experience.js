@@ -5,7 +5,7 @@ import PageTabMenu from "./pageHelperComponents/PageTabMenu";
 import PageContent from "./pageHelperComponents/PageContent";
 import { useState } from "react";
 import BackDropContainer from "./UI/BackDropContainer";
-import AnimatedPage from "./AnimatedPage";
+import AnimatedPage from "./AnimationComponents/AnimatedPage";
 
 const Experience = () => {
   const [currTab, setCurrTab] = useState({});

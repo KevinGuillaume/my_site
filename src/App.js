@@ -7,10 +7,15 @@ import Particle from "./components/Particle";
 import Header from "./components/Header";
 import Experience from "./components/Experience";
 import { Route, Routes } from "react-router-dom";
+import {useSelector} from "react-redux"
 
 function App() {
+  const isDark = useSelector((state) => state.displayThemeReducer);
+
+  
+
   return (
-    <div className="App">
+    <div className={isDark ? 'App' : 'App-light'}>
       <Particle />
       <Header />
       <div className="page-content">

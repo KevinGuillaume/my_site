@@ -1,6 +1,4 @@
-import displayAbout from './changeAbout'
-import displayProjects from './changeProjects'
-
+import displayThemeReducer from './changeDark';
 import {combineReducers} from 'redux'
 
 /**
@@ -12,8 +10,9 @@ import {combineReducers} from 'redux'
  * 
  */
 const allReducers = combineReducers({
-    displayProjects,
-    displayAbout
+    displayThemeReducer,
+    
+    
 })
 
 export default allReducers;

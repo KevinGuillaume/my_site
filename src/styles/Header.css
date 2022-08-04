@@ -3,7 +3,7 @@
     font-size: 1.4rem;
     display:flex;
     width:100%;
-  
+    margin:1%;
   }
   .myName{
     width:100%;
@@ -12,16 +12,29 @@
   .timeAndDisplay{
     text-align: right;
     display:flex;
+    margin-right:3%;
   }
   .sun{
     background-image: url("../assets/icons/sunGray.png");
       background-position: center center;
       background-size: cover;
-      height: 40px;
-      width: 40px;
+      height: 30px;
+      width: 30px;
       margin:auto;
       transition: 0.2s ease-in-out ;
   }
   .sun:hover{
     background-image: url("../assets/icons/sunWhite.png");
+  }
+  .moon{
+    background-image: url("../assets/icons/moonGray.png");
+      background-position: center center;
+      background-size: cover;
+      height: 30px;
+      width: 30px;
+      margin:auto;
+      transition: 0.2s ease-in-out ;
+  }
+  .moon:hover{
+    background-image: url("../assets/icons/moonW.png");
   }

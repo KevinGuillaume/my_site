@@ -1,5 +1,6 @@
 import "../styles/Nav.css";
 import { Link } from "react-router-dom";
+import LeftFadeAnimation from "./AnimationComponents/LeftFadeAnimation";
 /**
  * This is essentially the landing page which displays the different navigation pages as icons
  * @returns the nav component
@@ -7,6 +8,7 @@ import { Link } from "react-router-dom";
 function Nav() {
 
   return (
+    <LeftFadeAnimation>
     <div>
       <div className="squares-container">
         <div className="square">
@@ -23,6 +25,7 @@ function Nav() {
         </div>
       </div>
     </div>
+    </LeftFadeAnimation>
   );
 }
 export default Nav;

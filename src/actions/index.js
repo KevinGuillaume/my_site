@@ -1,10 +1,10 @@
-export const changeAbout = () =>{
+export const changeToDark = () =>{
     return {
-        type: 'changeAbout'
+        type: 'changeToDark'
     }
 }
-export const changeProjects = () =>{
+export const changeToLight = () =>{
     return {
-        type: 'changeProject'
+        type: 'changeToLight'
     }
 }

@@ -5,7 +5,7 @@ import PageIcon from "./pageHelperComponents/PageIcon";
 import PageTabMenu from "./pageHelperComponents/PageTabMenu";
 import PageContent from "./pageHelperComponents/PageContent";
 import BackDropContainer from "./UI/BackDropContainer";
-import AnimatedPage from "./AnimatedPage";
+import AnimatedPage from "./AnimationComponents/AnimatedPage";
 /**
  * Home Icon page that shows a brief introduction
  * @returns AboutMe Component

@@ -1,10 +1,23 @@
 .App {
   text-align: center;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   font-family: Ruda;
+  background: #191C27;
+  transition: 0.3s ease-in-out;
   font-size: calc(10px + 2vmin);
 }
+
+.App-light {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  font-family: Ruda;
+  transition: 0.3s ease-in-out;
+  background: #70A9FF;
+  font-size: calc(10px + 2vmin);
+}
+
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
@@ -31,6 +44,7 @@
 
 body{
   margin: 0;
+  transition: 0.3s ease-in-out;
   background: #191C27;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
@@ -48,6 +62,7 @@ body{
   margin: auto;
   
 }
+
 
 
 
