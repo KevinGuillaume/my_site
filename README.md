@@ -7,7 +7,7 @@
 *Current Look of the website*
 
 ## New Design template
-![image](https://user-images.githubusercontent.com/43580054/183515282-b7b860e8-0dbe-4118-ad8d-c7847c006dc5.png)
+![image](https://user-images.githubusercontent.com/43580054/183515466-b370ecaf-1ea0-4908-805d-490daff88238.png)
 *This is the revamped/modern look* I'm still looking to incorporate my original design into this modern design as well
 
 
