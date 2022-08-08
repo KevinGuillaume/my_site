@@ -12,6 +12,12 @@ const Experience = () => {
 
   const experienceList = [
     {
+      title: "RedMane",
+      position: "Software Developer",
+      desc: "Worked here",
+      technology: ["2022", "Present"],
+    },
+    {
       title: "HBR Consulting",
       position: "Web Developer Intern",
       desc: "Worked here",
@@ -23,6 +29,7 @@ const Experience = () => {
       desc: "Worked here",
       technology: ["2020", "2022"],
     },
+    
   ];
 
   const changeSelectedContent = (selectedTab) => {
