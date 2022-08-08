@@ -10,5 +10,12 @@
 ## Info
 Portfolio website to help put my work on display!
 
+### Links to Projects:
+Blockchain@LUC: blockchainluc.org
+
+Fantasy Markets: playfantasymarket.web.app/find
+
+Keno Kozie: Not public :/ only for company access
+
 
 Designed by me. Definetly an easy template to fork so feel free to do so!
