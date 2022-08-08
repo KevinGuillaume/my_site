@@ -2,13 +2,13 @@
   margin-top: 5%;
   height: 100vh;
   width: 100vw;
-  background-color: #a1a1a1;
+  background-color: transparent;
 }
 .back-drop-container-light {
   margin-top: 5%;
   height: 100vh;
   width: 100vw;
-  background-color: #E7E7E7;
+  background-color: transparent;
 }
 .selected-page-name {
   color: white;
