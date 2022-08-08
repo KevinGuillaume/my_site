@@ -9,6 +9,16 @@
   box-shadow: 3px 5px 5px 3px rgb(97, 97, 97);
   background-color: #d9d9d9;
 }
+.selected-tab-content-light {
+  position: relative;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  bottom:90px;
+  height: 70vh;
+  width: 65vw;
+  box-shadow: 3px 5px 5px 3px rgb(158, 158, 158);
+  background-color: #FFFFFF;
+}
 .keno-bg {
   background-image: url("../assets/keno.gif");
   background-position: center center;
@@ -41,7 +51,7 @@
 }
 .tab-description {
   padding: 10px;
-  font-size: 1.3rem;
+  font-size: 1rem;
   text-align: center;
   margin: 0;
 }
