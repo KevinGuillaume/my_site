@@ -8,6 +8,7 @@
 
 ## New Design template
 ![image](https://user-images.githubusercontent.com/43580054/183515466-b370ecaf-1ea0-4908-805d-490daff88238.png)
+![image](https://user-images.githubusercontent.com/43580054/183515730-a9f7eec5-28e4-489d-84e0-5b369e4db177.png)
 *This is the revamped/modern look* I'm still looking to incorporate my original design into this modern design as well
 
 
