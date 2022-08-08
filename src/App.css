@@ -2,7 +2,7 @@
   text-align: center;
   width: 100vw;
   height: 100vh;
-  font-family: Ruda;
+  font-family: 'Open Sans', sans-serif;
   background: #191C27;
   transition: 0.3s ease-in-out;
   font-size: calc(10px + 2vmin);
@@ -12,7 +12,7 @@
   text-align: center;
   width: 100vw;
   height: 100vh;
-  font-family: Ruda;
+  font-family: 'Open Sans', sans-serif;
   transition: 0.3s ease-in-out;
   background: #70A9FF;
   font-size: calc(10px + 2vmin);

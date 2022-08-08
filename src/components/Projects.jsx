@@ -35,11 +35,8 @@ function Projects() {
     {
       title:'API Fun',
       pic:'apifun',
-      desc:'Learning resource I made to help better understand concepts that revolve around the use of APIs in applications by using a random quote generator. It reviews concepts like Async/sync and Promises in javascript.',
+      desc:'Learning resource I made to help better understand concepts that revolve around the use of APIs by using a random quote generator. It reviews concepts like Async/sync and Promises in javascript.',
       technology: ["React","HTML/CSS","API"]
-    },
-    {
-      title: ''
     },
   ];
   

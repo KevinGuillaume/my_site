@@ -39,6 +39,16 @@
   border-radius: 5px;
   margin: auto;
 }
+.apifun-bg {
+  background-image: url("../assets/apifun.png");
+  background-position: center center;
+  background-size: cover;
+  box-shadow: 0px 3px 3px 0px rgb(139, 139, 139);
+  height: 55%;
+  width: 55%;
+  border-radius: 5px;
+  margin: auto;
+}
 .blockchain-bg {
   background-image: url("../assets/blockhainLuc.gif");
   background-position: center center;
@@ -49,14 +59,24 @@
   border-radius: 5px;
   margin: auto;
 }
+.aboutme-bg {
+  background-image: url("../assets/aboutMe.png");
+  background-position: center center;
+  box-shadow: 1px 3px 3px 2px rgb(165, 165, 165);
+  background-size: cover;
+  height: 41%;
+  width: 37%;
+  border-radius: 5px;
+  margin: auto;
+}
 .tab-description {
   padding: 10px;
-  font-size: 1rem;
+  font-size: 0.9rem;
   text-align: center;
   margin: 0;
 }
 .tab-title {
   padding: 2%;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   font-weight: 800;
 }
