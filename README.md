@@ -10,5 +10,9 @@
 ## Info
 Portfolio website to help put my work on display!
 
+### Links to Projects:
+Blockchain@LUC: blockchainluc.org
+Fantasy Markets: 
+
 
 Designed by me. Definetly an easy template to fork so feel free to do so!
