@@ -1,5 +1,5 @@
 # My Personal Site
-*In the process of a whole new site design*
+*In the process of a whole new site design looking into threejs, but not entirely sure*
 
 
 ## Original Design (currently deployed)
