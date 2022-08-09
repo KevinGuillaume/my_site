@@ -21,12 +21,12 @@
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
-  display:none;
+  display: none;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background:transparent;
+  background: transparent;
   border-radius: 10px;
 }
 
@@ -39,10 +39,9 @@
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
-  
 }
 
-body{
+body {
   margin: 0;
   transition: 0.3s ease-in-out;
   background: #191C27;
@@ -53,26 +52,22 @@ body{
   background-size: cover;
   overflow: hidden;
 }
-.nav{
+.nav {
   display: flex;
-  color:white;
+  color: white;
   z-index: 500;
   width: 50%;
   justify-content: center;
   margin: auto;
-  
 }
-
-
-
 
 .page-content {
   display: flex;
   align-items: center;
   text-align: left;
 }
-.box-sizing{
-  height:80vh;
+.box-sizing {
+  height: 80vh;
 }
 
 .link {
@@ -83,20 +78,24 @@ body{
   text-decoration: none;
   color: white;
 }
-.item{
-  z-index:500;
-  padding:3%;
-  border-radius:15px;
+.item {
+  z-index: 500;
+  padding: 3%;
+  border-radius: 15px;
   text-align: center;
-  transition: transform .2s;
-  margin:15px;
+  transition: transform 0.2s;
+  margin: 15px;
   border: 3px solid white;
-  cursor:  pointer;
-  color:white !important;
-  
+  cursor: pointer;
+  color: white !important;
 }
-.item:hover{
+.item:hover {
   transform: scale(1.2);
 }
 
-
+@media (max-width:768px){
+  .App{
+    height: 100vh;
+    width:100vw;
+  }
+}

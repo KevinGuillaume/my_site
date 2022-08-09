@@ -53,3 +53,9 @@
     width: 70px;
     margin:auto;
 }
+
+@media (max-width:768px){
+    .squares-container{
+        flex-direction: column;
+    }
+}

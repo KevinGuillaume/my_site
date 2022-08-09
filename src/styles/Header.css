@@ -13,6 +13,7 @@
     text-align: right;
     display:flex;
     margin-right:3%;
+    width: fit-content;
   }
   .sun{
     background-image: url("../assets/icons/sunGray.png");
@@ -37,4 +38,11 @@
   }
   .moon:hover{
     background-image: url("../assets/icons/moonW.png");
+  }
+
+  @media (max-width:768px) {
+    .top-label{
+      flex-direction: column;
+    }
+    
   }
