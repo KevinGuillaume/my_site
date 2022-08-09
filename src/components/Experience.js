@@ -14,11 +14,13 @@ const Experience = () => {
     {
       title: "RedMane",
       position: "Software Developer",
-      desc: "Just started lol",
+      pic:'rmlogo',
+      desc: "RedMane focuses on providing software solutions to different clients. Here I have been a part of the team as a software developer, and I have been helping implement solutions using Javascript, React, Java, and more.",
       technology: ["2022", "Present"],
     },
     {
       title: "HBR Consulting",
+      pic:'hbrConsulting',
       position: "Web Developer Intern",
       desc: "As a web developer intern, I was responsible for creating an internal database for the company. The purpose was to allow those in the company to find others skilled in certain areas, or trained on specific clients. It was used for HR purposes as well in order to track employee growth through the addition of skills.",
       technology: ["2021", "2022"],
@@ -26,6 +28,7 @@ const Experience = () => {
     {
       title: "Blockchain@LUC",
       position: "Web Developer",
+      pic:'blockLogo',
       desc: "I worked as a web developer of the club along with one other developer. I was part of the club executive teams and would cordinate events/meetings, and other club activities.",
       technology: ["2020", "2022"],
     },

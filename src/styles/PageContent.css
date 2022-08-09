@@ -30,6 +30,36 @@
   border-radius: 5px;
   margin: auto;
 }
+.rmlogo-bg {
+  background-image: url("../assets/rmlogo.gif");
+  background-position: center center;
+  background-size: cover;
+  box-shadow: 0px 0px 5px 2px rgb(139, 139, 139);
+  height: 55%;
+  width: 26%;
+  border-radius: 5px;
+  margin: auto;
+}
+.hbrConsulting-bg {
+  background-image: url("../assets/hbrConsulting.png");
+  background-position: center center;
+  background-size: cover;
+  box-shadow: 0px 0px 5px 2px rgb(139, 139, 139);
+  height: 48%;
+  width: 55%;
+  border-radius: 5px;
+  margin: auto;
+}
+.blockLogo-bg {
+  background-image: url("../assets/blockLogo.jpg");
+  background-position: center center;
+  background-size: cover;
+  box-shadow: 0px 0px 5px 2px rgb(139, 139, 139);
+  height: 47%;
+  width: 47%;
+  border-radius: 5px;
+  margin: auto;
+}
 .fantasy-bg {
   background-image: url("../assets/fantasyMarkets.gif");
   background-position: center center;
