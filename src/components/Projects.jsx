@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import "../styles/Projects.css";
-import { Link } from "react-router-dom";
 import PageIcon from "./pageHelperComponents/PageIcon";
 import PageTabMenu from "./pageHelperComponents/PageTabMenu";
 import PageContent from "./pageHelperComponents/PageContent";
 import BackDropContainer from "./UI/BackDropContainer";
 import AnimatedPage from "./AnimationComponents/AnimatedPage";
+import BackAndTitle from "./pageHelperComponents/BackAndTitle";
 /**
  * Project component which is the project page that lists all projects and their information.
  * @returns Project Page
@@ -33,13 +33,13 @@ function Projects() {
       technology: ["React", "HMTML/CSS", "API"],
     },
     {
-      title:'API Fun',
-      pic:'apifun',
-      desc:'Learning resource I made to help better understand concepts that revolve around the use of APIs by using a random quote generator. It reviews concepts like Async/sync and Promises in javascript.',
-      technology: ["React","HTML/CSS","API"]
+      title: "API Fun",
+      pic: "apifun",
+      desc: "Learning resource I made to help better understand concepts that revolve around the use of APIs by using a random quote generator. It reviews concepts like Async/sync and Promises in javascript.",
+      technology: ["React", "HTML/CSS", "API"],
     },
   ];
-  
+
   const changeSelectedContent = (selectedTab) => {
     projects.forEach((project) => {
       if (project.title === selectedTab) {
@@ -52,15 +52,7 @@ function Projects() {
   return (
     <AnimatedPage>
       <BackDropContainer>
-      <div className="arrow-title-container">
-          <div className="arrow-back">
-            <Link className="no-decoration" to="/">
-              ←
-            </Link>
-          </div>
-
-          <div className="page__title">Projects</div>
-        </div>
+        <BackAndTitle label="Projects" />
         <PageIcon iconName="folder" />
         <div className="tab-and-content-container">
           <PageTabMenu
@@ -68,7 +60,7 @@ function Projects() {
             onChangeSelectedTab={changeSelectedContent}
           />
           <AnimatedPage>
-          <PageContent pageDetails={currTab} />
+            <PageContent pageDetails={currTab} />
           </AnimatedPage>
         </div>
       </BackDropContainer>

@@ -1,17 +1,31 @@
 import "../../styles/PageIcon.css";
+import { Suspense } from "react";
 import { useSelector } from "react-redux";
+import { Canvas } from "@react-three/fiber";
+import { Folders } from "../ThreeJS/Folders";
+import { House3D } from "../ThreeJS/House3D";
+import { CraftTable } from "../ThreeJS/CraftTable";
 /**
  * The selected icon at the top for the given page
  * @params passed in props that will be the used for deciding the icon
- * @returns 
+ * @returns
  */
 const PageIcon = (props) => {
 
-  const isDark = useSelector(state => state.displayThemeReducer);
-
   return (
-    <div className={isDark ? "selected-page-box" : "selected-page-box-light"}>
-      <div className={`Scaled-${props.iconName}`}></div>
+    <div className= "selected-page-box">
+      <Canvas className="icon-canvas">
+        
+        <ambientLight intensity={0.6} />
+        <directionalLight position={[-2, 5, 2]} intensity={1} />
+        <Suspense fallback={null}>
+          {props.iconName === "folder" ?  <Folders /> : ''}
+          {props.iconName === "tools" ?  <CraftTable /> : ''}
+          {props.iconName === "home" ?  <House3D /> : ''}
+          
+         
+        </Suspense>
+      </Canvas>
     </div>
   );
 };

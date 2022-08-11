@@ -9,8 +9,6 @@ import { useSelector } from "react-redux";
  */
 function Particle(){
 
-  const isDark = useSelector((state) => state.displayThemeReducer);
-
   const particlesInit = async (main) => {
     console.log(main);
 
@@ -40,7 +38,7 @@ function Particle(){
               mode: "push",
             },
             onHover: {
-              enable: true,
+              enable: false,
               mode: "attract",
             },
             resize: true,
@@ -57,7 +55,7 @@ function Particle(){
         },
         particles: {
           color: {
-            value: isDark ? 'FFFFFF' : "FFFF00",
+            value:  'FFFFFF',
           },
           links: {
             color: "#ffffff",

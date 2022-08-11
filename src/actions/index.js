@@ -1,10 +1,10 @@
-export const changeToDark = () =>{
+export const displayParticles = () =>{
     return {
-        type: 'changeToDark'
+        type: 'showParticles'
     }
 }
-export const changeToLight = () =>{
+export const dontDisplayParticles = () =>{
     return {
-        type: 'changeToLight'
+        type: 'dontShowParticles'
     }
 }

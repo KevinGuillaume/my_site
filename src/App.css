@@ -1,7 +1,6 @@
 .App {
   text-align: center;
-  width: 100vw;
-  height: 100vh;
+  
   font-family: 'Open Sans', sans-serif;
   background: #191C27;
   transition: 0.3s ease-in-out;

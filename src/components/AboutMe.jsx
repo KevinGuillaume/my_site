@@ -1,11 +1,12 @@
 import React from "react";
 import "../styles/AboutMe.css";
-import { Link } from "react-router-dom";
+
 import PageIcon from "./pageHelperComponents/PageIcon";
 import PageTabMenu from "./pageHelperComponents/PageTabMenu";
 import PageContent from "./pageHelperComponents/PageContent";
 import BackDropContainer from "./UI/BackDropContainer";
 import AnimatedPage from "./AnimationComponents/AnimatedPage";
+import BackAndTitle from "./pageHelperComponents/BackAndTitle";
 /**
  * Home Icon page that shows a brief introduction
  * @returns AboutMe Component
@@ -23,15 +24,7 @@ function AboutMe() {
   return (
     <AnimatedPage>
       <BackDropContainer>
-        <div className="arrow-title-container">
-          <div className="arrow-back">
-            <Link className="no-decoration" to="/">
-              ←
-            </Link>
-          </div>
-
-          <div className="page__title">Home</div>
-        </div>
+        <BackAndTitle label="Home" />
         <PageIcon iconName="home" />
         <div className="tab-and-content-container">
           <PageTabMenu tabList={intro} />

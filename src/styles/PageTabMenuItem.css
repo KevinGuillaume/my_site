@@ -19,7 +19,7 @@
 }
 .tabMenu__item:hover{
   transform: scale(1.05);
-  box-shadow: 1px 5px 7px 2px rgb(190, 190, 190);
+  box-shadow: 1px 5px 7px 2px rgb(196, 230, 241);
 }
 .tabMenu__item-light:hover{
   transform: scale(1.05);

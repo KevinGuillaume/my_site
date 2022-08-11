@@ -4,10 +4,10 @@
 
 const displayThemeReducer = (state = true, action) => {
   switch (action.type) {
-    case "changeToLight":
-      return false;
-    case "changeToDark":
+    case "showParticles":
       return true;
+    case "dontShowParticles":
+      return false;
     default:
       return true;
     //Note to self:
