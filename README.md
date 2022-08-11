@@ -24,4 +24,4 @@ Fantasy Markets: playfantasymarket.web.app/find
 Keno Kozie: Not public :/ only for company access
 
 
-Designed and created by me. Definetly an easy template to fork so feel free to do so!
+Designed and created by me.
