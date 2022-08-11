@@ -1,7 +1,7 @@
 import Clock from "./Clock";
 // import { useSelector, useDispatch } from "react-redux";
 // import { changeToLight, changeToDark } from "../actions";
-import "../styles/Header.css";
+import "../../styles/Header.css";
 /**
  * This is the top of the page with the clock component, the name, and sun/moon icon
  * @returns Header component

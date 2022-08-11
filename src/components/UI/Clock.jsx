@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "../styles/Clock.css"
+import "../../styles/Clock.css"
 /**
  * Live clock that calculates the current time based on 12 hour clock
  * @returns Clock component

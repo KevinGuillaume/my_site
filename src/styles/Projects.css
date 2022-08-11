@@ -4,3 +4,9 @@
 .tab-and-content-container{
     display:flex;
 }
+@media (max-width:768px) {
+  .tab-and-content-container{
+    flex-direction: column;
+  }
+  
+}

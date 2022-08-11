@@ -1,12 +1,12 @@
 import React from "react";
-import "../styles/AboutMe.css";
+import "../../styles/AboutMe.css";
 
-import PageIcon from "./pageHelperComponents/PageIcon";
-import PageTabMenu from "./pageHelperComponents/PageTabMenu";
-import PageContent from "./pageHelperComponents/PageContent";
-import BackDropContainer from "./UI/BackDropContainer";
-import AnimatedPage from "./AnimationComponents/AnimatedPage";
-import BackAndTitle from "./pageHelperComponents/BackAndTitle";
+import PageIcon from "../pageHelperComponents/PageIcon";
+import PageTabMenu from "../pageHelperComponents/PageTabMenu";
+import PageContent from "../pageHelperComponents/PageContent";
+import BackDropContainer from "../UI/BackDropContainer";
+import AnimatedPage from "../AnimationComponents/AnimatedPage";
+import BackAndTitle from "../pageHelperComponents/BackAndTitle";
 /**
  * Home Icon page that shows a brief introduction
  * @returns AboutMe Component

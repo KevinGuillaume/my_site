@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import "../styles/Projects.css";
-import PageIcon from "./pageHelperComponents/PageIcon";
-import PageTabMenu from "./pageHelperComponents/PageTabMenu";
-import PageContent from "./pageHelperComponents/PageContent";
-import BackDropContainer from "./UI/BackDropContainer";
-import AnimatedPage from "./AnimationComponents/AnimatedPage";
-import BackAndTitle from "./pageHelperComponents/BackAndTitle";
+import "../../styles/Projects.css";
+import PageIcon from "../pageHelperComponents/PageIcon";
+import PageTabMenu from "../pageHelperComponents/PageTabMenu";
+import PageContent from "../pageHelperComponents/PageContent";
+import BackDropContainer from "../UI/BackDropContainer";
+import AnimatedPage from "../AnimationComponents/AnimatedPage";
+import BackAndTitle from "../pageHelperComponents/BackAndTitle";
 /**
  * Project component which is the project page that lists all projects and their information.
  * @returns Project Page

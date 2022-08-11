@@ -33,3 +33,10 @@
   margin-right: 20%;
   padding: 5px;
 }
+@media (max-width:768px) {
+  .arrow-title-container{
+    bottom:0;
+    margin-bottom: 0;
+  }
+  
+}

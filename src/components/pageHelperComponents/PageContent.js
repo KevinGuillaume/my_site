@@ -1,4 +1,4 @@
-import "../../styles/PageContent.css";
+import "../../styles/pageHelperStyles/PageContent.css";
 import TechList from "../TechnologyComponents/TechList";
 /**
  * This deals with what is rendered on each page depending on the selected tab

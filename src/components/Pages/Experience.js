@@ -1,11 +1,11 @@
-import "../styles/Experience.css";
-import PageIcon from "./pageHelperComponents/PageIcon";
-import PageTabMenu from "./pageHelperComponents/PageTabMenu";
-import PageContent from "./pageHelperComponents/PageContent";
+import "../../styles/Experience.css";
+import PageIcon from "../pageHelperComponents/PageIcon";
+import PageTabMenu from "../pageHelperComponents/PageTabMenu";
+import PageContent from "../pageHelperComponents/PageContent";
 import { useState } from "react";
-import BackDropContainer from "./UI/BackDropContainer";
-import AnimatedPage from "./AnimationComponents/AnimatedPage";
-import BackAndTitle from "./pageHelperComponents/BackAndTitle";
+import BackDropContainer from "../UI/BackDropContainer";
+import AnimatedPage from "../AnimationComponents/AnimatedPage";
+import BackAndTitle from "../pageHelperComponents/BackAndTitle";
 
 const Experience = () => {
   const [currTab, setCurrTab] = useState({});

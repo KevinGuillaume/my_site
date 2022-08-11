@@ -21,7 +21,7 @@
   background-color: #ffffffe1;
 }
 .keno-bg {
-  background-image: url("../assets/keno.gif");
+  background-image: url("../../assets/keno.gif");
   background-position: center center;
   background-size: cover;
   box-shadow: 0px 0px 5px 2px rgb(139, 139, 139);
@@ -31,7 +31,7 @@
   margin: auto;
 }
 .rmlogo-bg {
-  background-image: url("../assets/rmlogo.gif");
+  background-image: url("../../assets/rmlogo.gif");
   background-position: center center;
   background-size: cover;
   box-shadow: 0px 0px 5px 2px rgb(139, 139, 139);
@@ -41,7 +41,7 @@
   margin: auto;
 }
 .hbrConsulting-bg {
-  background-image: url("../assets/hbrConsulting.png");
+  background-image: url("../../assets/hbrConsulting.png");
   background-position: center center;
   background-size: cover;
   box-shadow: 0px 0px 5px 2px rgb(139, 139, 139);
@@ -51,7 +51,7 @@
   margin: auto;
 }
 .blockLogo-bg {
-  background-image: url("../assets/blockLogo.jpg");
+  background-image: url("../../assets/blockLogo.jpg");
   background-position: center center;
   background-size: cover;
   box-shadow: 0px 0px 5px 2px rgb(139, 139, 139);
@@ -61,7 +61,7 @@
   margin: auto;
 }
 .fantasy-bg {
-  background-image: url("../assets/fantasyMarkets.gif");
+  background-image: url("../../assets/fantasyMarkets.gif");
   background-position: center center;
   background-size: cover;
   box-shadow: 0px 0px 5px 2px rgb(139, 139, 139);
@@ -71,7 +71,7 @@
   margin: auto;
 }
 .apifun-bg {
-  background-image: url("../assets/apifun.png");
+  background-image: url("../../assets/apifun.png");
   background-position: center center;
   background-size: cover;
   box-shadow: 0px 0px 5px 2px rgb(139, 139, 139);
@@ -81,7 +81,7 @@
   margin: auto;
 }
 .blockchain-bg {
-  background-image: url("../assets/blockhainLuc.gif");
+  background-image: url("../../assets/blockhainLuc.gif");
   background-position: center center;
   box-shadow: 0px 0px 5px 2px rgb(139, 139, 139);
   background-size: cover;
@@ -91,7 +91,7 @@
   margin: auto;
 }
 .aboutme-bg {
-  background-image: url("../assets/aboutMe.png");
+  background-image: url("../../assets/aboutMe.png");
   background-position: center center;
   box-shadow: 0px 0px 5px 2px rgb(165, 165, 165);
   background-size: cover;
@@ -110,4 +110,11 @@
   padding: 2%;
   font-size: 1.1rem;
   font-weight: 800;
+}
+@media (max-width:768px) {
+  .selected-tab-content{
+    bottom: 0;
+    width:100vw;
+  }
+  
 }

@@ -1,5 +1,5 @@
 .Scaled-mail {
-  background-image: url("../assets/icons/mailW.png");
+  background-image: url("../../assets/icons/mailW.png");
   background-position: center center;
   background-size: cover;
   height: 90%;
@@ -7,7 +7,7 @@
   margin: auto;
 }
 .Scaled-home {
-    background-image: url("../assets/icons/houseW.png");
+    background-image: url("../../assets/icons/houseW.png");
     background-position: center center;
     background-size: cover;
     height: 90%;
@@ -15,7 +15,7 @@
     margin: auto;
   }
 .Scaled-folder {
-  background-image: url("../assets/icons/folderW.png");
+  background-image: url("../../assets/icons/folderW.png");
   background-position: center center;
   background-size: cover;
   height: 90%;
@@ -23,7 +23,7 @@
   margin: auto;
 }
 .Scaled-tools {
-  background-image: url("../assets/icons/toolsW.png");
+  background-image: url("../../assets/icons/toolsW.png");
   background-position: center center;
   background-size: cover;
   height: 100%;
@@ -49,4 +49,12 @@
   height:100%;
   width: 100%;
   margin:auto;
+}
+@media (max-width:768px) {
+  .selected-page-box{
+    width: 60%;
+    margin-left: 0;
+    margin:auto;
+  }
+  
 }
