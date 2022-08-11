@@ -1,13 +1,11 @@
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 
-
 /**
  * These are the particles floating around the screen. They can be edited.
  * @returns Particles in the background
  */
-function Particle(){
-
+function Particle() {
   const particlesInit = async (main) => {
     console.log(main);
 
@@ -21,14 +19,12 @@ function Particle(){
     console.log(container);
   };
 
-
-    return(
-        <Particles
+  return (
+    <Particles
       id="tsparticles"
       init={particlesInit}
       loaded={particlesLoaded}
       options={{
-        
         fpsLimit: 120,
         interactivity: {
           events: {
@@ -54,7 +50,7 @@ function Particle(){
         },
         particles: {
           color: {
-            value:  'FFFFFF',
+            value: "FFFFFF",
           },
           links: {
             color: "#ffffff",
@@ -90,12 +86,12 @@ function Particle(){
             type: "circle",
           },
           size: {
-            value: { min: 1, max: 3 } 
+            value: { min: 1, max: 3 },
           },
         },
         detectRetina: true,
       }}
     />
-    )
+  );
 }
-export default Particle
+export default Particle;

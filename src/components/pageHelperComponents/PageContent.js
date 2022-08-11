@@ -11,7 +11,7 @@ const PageContent = (props) => {
   const isTechEmpty = content.technology;
 
   return (
-    <div className='selected-tab-content'>
+    <div className="selected-tab-content">
       <div className="tab-title">{content.title}</div>
 
       {showPic ? <div className={`${content.pic}-bg`}></div> : ""}
