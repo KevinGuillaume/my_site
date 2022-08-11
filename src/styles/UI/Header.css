@@ -16,7 +16,7 @@
     width: fit-content;
   }
   .sun{
-    background-image: url("../assets/icons/sunGray.png");
+    background-image: url("../../assets/icons/sunGray.png");
       background-position: center center;
       background-size: cover;
       height: 30px;
@@ -25,10 +25,10 @@
       transition: 0.2s ease-in-out ;
   }
   .sun:hover{
-    background-image: url("../assets/icons/sunWhite.png");
+    background-image: url("../../assets/icons/sunWhite.png");
   }
   .moon{
-    background-image: url("../assets/icons/moonGray.png");
+    background-image: url("../../assets/icons/moonGray.png");
       background-position: center center;
       background-size: cover;
       height: 30px;
@@ -37,7 +37,7 @@
       transition: 0.2s ease-in-out ;
   }
   .moon:hover{
-    background-image: url("../assets/icons/moonW.png");
+    background-image: url("../../assets/icons/moonW.png");
   }
 
   @media (max-width:768px) {

@@ -1,7 +1,7 @@
-import "../../styles/TechButton.css";
+import "../../styles/Technology/TechButton.css";
 /**
  * Tech button that is used to make up the tech button list
- * @param {*} props a given technology name is passed in EX:'Vue' 
+ * @param {*} props a given technology name is passed in EX:'Vue'
  * @returns Single tech button that is styled
  */
 const TechButton = (props) => {

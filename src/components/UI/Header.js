@@ -1,7 +1,7 @@
 import Clock from "./Clock";
 // import { useSelector, useDispatch } from "react-redux";
 // import { changeToLight, changeToDark } from "../actions";
-import "../../styles/Header.css";
+import "../../styles/UI/Header.css";
 /**
  * This is the top of the page with the clock component, the name, and sun/moon icon
  * @returns Header component
@@ -14,7 +14,7 @@ const Header = () => {
   //   if (!isDark) {//If it is light change to dark
   //     dispatch(changeToDark());
   //     document.body.style.backgroundColor = '#191C27'
-      
+
   //   } else {//if it is dark change to light
   //     dispatch(changeToLight());
   //     document.body.style.backgroundColor = '#70A9FF'

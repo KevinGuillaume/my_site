@@ -1,5 +1,5 @@
 import React, { Suspense } from "react";
-import "../../styles/Nav.css";
+import "../../styles/Pages/Nav.css";
 import { Link } from "react-router-dom";
 import { Canvas } from "@react-three/fiber";
 import { Earth } from "../ThreeJS/Earth";

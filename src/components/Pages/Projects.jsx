@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../../styles/Projects.css";
+import "../../styles/Pages/Projects.css";
 import PageIcon from "../pageHelperComponents/PageIcon";
 import PageTabMenu from "../pageHelperComponents/PageTabMenu";
 import PageContent from "../pageHelperComponents/PageContent";

@@ -20,7 +20,7 @@
 }
 
 .mail {
-  background-image: url("../assets/icons/mailW.png");
+  background-image: url("../../assets/icons/mailW.png");
   background-position: center center;
   background-size: cover;
   height: 70px;
@@ -28,7 +28,7 @@
   margin: auto;
 }
 .home {
-  background-image: url("../assets/icons/houseW.png");
+  background-image: url("../../assets/icons/houseW.png");
   background-position: center center;
   background-size: cover;
   height: 70px;
@@ -36,7 +36,7 @@
   margin: auto;
 }
 .folder {
-  background-image: url("../assets/icons/folderW.png");
+  background-image: url("../../assets/icons/folderW.png");
   background-position: center center;
   background-size: cover;
   height: 70px;
@@ -44,7 +44,7 @@
   margin: auto;
 }
 .tools {
-  background-image: url("../assets/icons/toolsW.png");
+  background-image: url("../../assets/icons/toolsW.png");
   background-position: center center;
   background-size: cover;
   height: 70px;

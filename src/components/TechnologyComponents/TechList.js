@@ -1,4 +1,4 @@
-import "../../styles/TechList.css";
+import "../../styles/Technology/TechList.css";
 import TechButton from "./TechButton";
 /**
  * Deals with the technologies used at the bottom of project page

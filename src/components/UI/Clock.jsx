@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "../../styles/Clock.css"
+import "../../styles/UI/Clock.css";
 /**
  * Live clock that calculates the current time based on 12 hour clock
  * @returns Clock component
@@ -9,7 +9,9 @@ function Clock() {
   useEffect(() => {
     setInterval(() => {
       const date = new Date();
-      setClock(date.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'}));
+      setClock(
+        date.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })
+      );
     }, 1000);
   }, []);
 

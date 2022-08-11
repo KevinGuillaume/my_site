@@ -1,4 +1,4 @@
-import "../../styles/Experience.css";
+import "../../styles/Pages/Experience.css";
 import PageIcon from "../pageHelperComponents/PageIcon";
 import PageTabMenu from "../pageHelperComponents/PageTabMenu";
 import PageContent from "../pageHelperComponents/PageContent";
