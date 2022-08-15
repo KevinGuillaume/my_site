@@ -16,7 +16,7 @@ const PageContent = (props) => {
     <div className="selected-tab-content">
       <div className="title-box">
         <div className="tab-title">{content.title}</div>
-        {projUrl || props.pageDetails.url == 'undefined' ? <a href={`${props.pageDetails.url}`} className="code-block">
+        {projUrl ? <a href={`${props.pageDetails.url}`} className="code-block">
           <BiCodeBlock />
         </a> : ''}
       </div>
