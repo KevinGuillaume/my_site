@@ -116,12 +116,13 @@
 }
 .code-block{
   padding: 1%;
-  padding-top: 1.8%;
+  padding-top: 1.5%;
   padding-left: 0;
   font-size: 1.8rem;
   font-weight: 800;
   transition: 0.1s ease-in-out;
   cursor: pointer;
+  color:white;
 }
 .code-block:hover{
   transform:scale(1.1)

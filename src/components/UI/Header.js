@@ -23,7 +23,7 @@ const Header = () => {
 
   return (
     <div className="top-label">
-      <div className="myName">Kevin Guillaume</div>
+      <div className="myName"></div>
       <div className="timeAndDisplay">
         {/* {<div className={isDark ? "sun" : "moon"} onClick={callDispatch}></div>} */}
         <Clock />
