@@ -1,9 +1,9 @@
-import React, { Suspense } from "react";
+import React from "react";
 import "../../styles/Pages/Nav.css";
 import { Link } from "react-router-dom";
 import { Canvas } from "@react-three/fiber";
 import { Earth } from "../ThreeJS/Earth";
-import { Loader, OrbitControls, Stars} from "@react-three/drei";
+import {OrbitControls, Stars} from "@react-three/drei";
 import AnimatedPage from "../AnimationComponents/AnimatedPage";
 import { useDispatch } from "react-redux";
 import { dontDisplayParticles, displayParticles } from "../../actions";
