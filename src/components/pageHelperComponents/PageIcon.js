@@ -4,6 +4,7 @@ import { Canvas } from "@react-three/fiber";
 import { Folders } from "../ThreeJS/Folders";
 import { House3D } from "../ThreeJS/House3D";
 import { CraftTable } from "../ThreeJS/CraftTable";
+import { Loader } from "@react-three/drei";
 /**
  * The selected icon at the top for the given page
  * @params passed in props that will be the used for deciding the icon

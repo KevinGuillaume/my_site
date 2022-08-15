@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Suspense } from "react";
 import "./App.css";
 import Projects from "./components/Pages/Projects";
 import AboutMe from "./components/Pages/AboutMe";
@@ -8,12 +8,14 @@ import Header from "./components/UI/Header";
 import Experience from "./components/Pages/Experience";
 import { Route, Routes } from "react-router-dom";
 import { useSelector } from "react-redux";
+import {Loader} from '@react-three/drei'
 
 function App() {
   const seeParticles = useSelector((state) => state.displayThemeReducer);
 
   return (
     <div className="App">
+      <Suspense fallback={<Loader />} >
       {seeParticles ? <Particle /> : ""}
 
       <Header />
@@ -25,6 +27,7 @@ function App() {
           <Route path="/experience" element={<Experience />} />
         </Routes>
       </div>
+      </Suspense>
     </div>
   );
 }

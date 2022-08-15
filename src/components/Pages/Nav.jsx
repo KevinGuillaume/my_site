@@ -3,7 +3,7 @@ import "../../styles/Pages/Nav.css";
 import { Link } from "react-router-dom";
 import { Canvas } from "@react-three/fiber";
 import { Earth } from "../ThreeJS/Earth";
-import { OrbitControls, Stars } from "@react-three/drei";
+import { Loader, OrbitControls, Stars} from "@react-three/drei";
 import AnimatedPage from "../AnimationComponents/AnimatedPage";
 import { useDispatch } from "react-redux";
 import { dontDisplayParticles, displayParticles } from "../../actions";
@@ -17,6 +17,7 @@ function Nav() {
 
   return (
     <AnimatedPage>
+     
       <div>
         <div className="squares-container">
           <div className="square">
@@ -44,11 +45,12 @@ function Nav() {
           </div>
         </div>
       </div>
+      
       <Canvas className="sphere-canvas">
         <OrbitControls enableZoom={false} enablePan={false} />
         <ambientLight intensity={0.6} />
         <directionalLight position={[-2, 5, 2]} intensity={1} />
-        <Suspense fallback={null}>
+        
           <Stars
             radius={300}
             depth={60}
@@ -58,8 +60,9 @@ function Nav() {
             fade={true}
           />
           <Earth />
-        </Suspense>
+        
       </Canvas>
+      
     </AnimatedPage>
   );
 }
