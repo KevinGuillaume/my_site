@@ -115,6 +115,31 @@
   .selected-tab-content{
     bottom: 0;
     width:100vw;
+    height:fit-content;
+  }
+  .aboutme-bg{
+    box-shadow: none;
+  }
+  .apifun-bg{
+    box-shadow: none;
+  }
+  .blockchain-bg{
+    box-shadow: none;
+  }
+  .fantasy-bg{
+    box-shadow: none;
+  }
+  .keno-bg{
+    box-shadow: none;
+  }
+  .rmlogo-bg{
+    box-shadow: none;
+  }
+  .blockLogo-bg{
+    box-shadow: none;
+  }
+  .hbrConsulting-bg{
+    box-shadow: none;
   }
   
 }

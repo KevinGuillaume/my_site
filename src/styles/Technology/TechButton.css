@@ -26,3 +26,9 @@
 .API{
     background-color: rgba(127, 255, 212, 0.555);
 }
+@media (max-width:768px) {
+    .tech-item{
+      margin:2%
+    }
+    
+  }
