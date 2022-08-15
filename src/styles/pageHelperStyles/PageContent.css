@@ -111,6 +111,21 @@
   font-size: 1.1rem;
   font-weight: 800;
 }
+.title-box{
+  display: flex;
+}
+.code-block{
+  padding: 1%;
+  padding-top: 1.8%;
+  padding-left: 0;
+  font-size: 1.8rem;
+  font-weight: 800;
+  transition: 0.1s ease-in-out;
+  cursor: pointer;
+}
+.code-block:hover{
+  transform:scale(1.1)
+}
 @media (max-width:768px) {
   .selected-tab-content{
     bottom: 0;
