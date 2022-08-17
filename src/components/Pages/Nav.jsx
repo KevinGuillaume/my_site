@@ -28,7 +28,7 @@ const DisplayEarth = () => {
         fade={true}
       />
       <Text3D
-      position={[-1.5,2.1,0]}
+      position={[-1.5,2,1.2]}
         font={process.env.PUBLIC_URL + "../../Roboto_Regular.json"}
         size={0.275}
         height={0.065}
