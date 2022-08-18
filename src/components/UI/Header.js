@@ -7,20 +7,6 @@ import "../../styles/UI/Header.css";
  * @returns Header component
  */
 const Header = () => {
-  // const isDark = useSelector((state) => state.displayThemeReducer);
-  // const dispatch = useDispatch();
-
-  // const callDispatch = () => { //Calls to our redux in order to check what state we're in
-  //   if (!isDark) {//If it is light change to dark
-  //     dispatch(changeToDark());
-  //     document.body.style.backgroundColor = '#191C27'
-
-  //   } else {//if it is dark change to light
-  //     dispatch(changeToLight());
-  //     document.body.style.backgroundColor = '#70A9FF'
-  //   }
-  // };
-
   return (
     <div className="top-label">
       <div className="myName"></div>

@@ -20,7 +20,10 @@ const LinkIcons = () => {
         </a>
       </div>
       <div className="link-box__item">
-        <a className="link-box__link" href="https://mobile.twitter.com/keving11_">
+        <a
+          className="link-box__link"
+          href="https://mobile.twitter.com/keving11_"
+        >
           <AiOutlineTwitter />
         </a>
       </div>

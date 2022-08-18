@@ -4,8 +4,8 @@ import { dontDisplayParticles } from "../../actions";
 import { useDispatch } from "react-redux";
 /**
  * This deals with both the title of the page that was selected, and the back arrow displayed
- * @param {*} props 
- * @returns 
+ * @param {*} props
+ * @returns
  */
 const BackAndTitle = (props) => {
   const dispatch = useDispatch();

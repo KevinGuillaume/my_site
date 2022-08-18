@@ -15,13 +15,13 @@ const intro = [
     title: "About Me",
     pic: "aboutme",
     desc: "My names Kevin, and I am a Software Engineer. I first became interested in coding around 16 years old. Since then I've been interested in creating projects and interacting with different frameworks,languages, or tools. I attended Loyola University Chicago where I earned a Bachelor's degree in Computer Science, and a minor in Mathematics. When I'm not coding you can almost always find me playing basketball with some friends. I'm also a big fan of video games and I'm always looking for some new recommandations so send them my way.",
-    url:''
+    url: "",
   },
   {
-    title: 'Contact',
-    desc: 'If you are looking to get in touch feel free to contact me from any of the links above. I will try my best to get back promptly.',
-    url: ''
-  }
+    title: "Contact",
+    desc: "If you are looking to get in touch feel free to contact me from any of the links above. I will try my best to get back promptly.",
+    url: "",
+  },
 ];
 
 /**
@@ -29,13 +29,7 @@ const intro = [
  * @returns AboutMe Component
  */
 function AboutMe() {
-  
-
-
   const [currTab, setCurrTab] = useState(intro[0]);
-
-  
-
 
   //Pulls the selected tab from the PageTabMenu Components
   const changeSelectedContent = (selectedTab) => {
@@ -53,7 +47,10 @@ function AboutMe() {
         <BackAndTitle label="Home" />
         <PageIcon iconName="home" />
         <div className="tab-and-content-container">
-          <PageTabMenu tabList={intro} onChangeSelectedTab={changeSelectedContent}/>
+          <PageTabMenu
+            tabList={intro}
+            onChangeSelectedTab={changeSelectedContent}
+          />
           <PageContent pageDetails={currTab} />
         </div>
       </BackDropContainer>

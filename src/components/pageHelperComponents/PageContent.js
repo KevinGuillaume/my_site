@@ -11,17 +11,21 @@ const PageContent = (props) => {
   const content = props.pageDetails;
   const showPic = props.pageDetails.pic !== "";
   const isTechEmpty = content.technology;
-  const projUrl = content.url !== '';
+  const projUrl = content.url !== "";
 
   return (
     <div className="selected-tab-content">
       <div className="title-box">
         <div className="tab-title">{content.title}</div>
-        {projUrl ? <a href={`${props.pageDetails.url}`} className="code-block">
-          <BiCodeBlock />
-        </a> : ''}
+        {projUrl ? (
+          <a href={`${props.pageDetails.url}`} className="code-block">
+            <BiCodeBlock />
+          </a>
+        ) : (
+          ""
+        )}
       </div>
-      {content.title === 'Contact' ? <LinkIcons /> : ''}
+      {content.title === "Contact" ? <LinkIcons /> : ""}
       {showPic ? <div className={`${content.pic}-bg`}></div> : ""}
       <br />
       <div className="tab-description">{content.desc}</div>

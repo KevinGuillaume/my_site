@@ -1,5 +1,5 @@
 import { OrbitControls, Stars, Text3D } from "@react-three/drei";
-import "../../styles/UI/DisplayBackground.css"
+import "../../styles/UI/DisplayBackground.css";
 import React, { useState } from "react";
 import { Earth } from "../ThreeJS/Earth";
 import { Canvas } from "@react-three/fiber";
@@ -26,13 +26,18 @@ const DisplayBackground = () => {
   const [expActive, setExpActive] = useState(false);
   const [homeActive, setHomeActive] = useState(false);
 
-  const projectHover = useSpring({ scale: projActive ? 1.15 : 1,
-  config:config.wobbly })
-  const experienceHover = useSpring({ scale: expActive ? 1.15 : 1,
-  config: config.wobbly})
-  const homeHover = useSpring({ scale: homeActive ? 1.1 : 1,
-    config: config.wobbly})
-  
+  const projectHover = useSpring({
+    scale: projActive ? 1.15 : 1,
+    config: config.wobbly,
+  });
+  const experienceHover = useSpring({
+    scale: expActive ? 1.15 : 1,
+    config: config.wobbly,
+  });
+  const homeHover = useSpring({
+    scale: homeActive ? 1.1 : 1,
+    config: config.wobbly,
+  });
 
   const navigate = useNavigate();
 
@@ -64,41 +69,43 @@ const DisplayBackground = () => {
         fade={true}
       />
       {/* HOME ICON */}
-      <animated.mesh  className="earth-model" scale={homeHover.scale}
+      <animated.mesh
+        className="earth-model"
+        scale={homeHover.scale}
         onPointerOver={() => setHomeActive(true)}
         onPointerLeave={() => setHomeActive(false)}
         onClick={homeClickHandler}
       >
-      <Text3D
-        position={[-1.5, 2, 1.2]}
-        font={process.env.PUBLIC_URL + "../../Roboto_Regular.json"}
-        size={0.275}
-        height={0.065}
-        curveSegments={12}
-      >
-        {`Kevin Guillaume`}
-        <meshStandardMaterial color={[2, 0.15, 0.1]} emissive={[1, 0.1, 0]} />
-      </Text3D>
-      <Earth/>
+        <Text3D
+          position={[-1.5, 2, 1.2]}
+          font={process.env.PUBLIC_URL + "../../Roboto_Regular.json"}
+          size={0.275}
+          height={0.065}
+          curveSegments={12}
+        >
+          {`Kevin Guillaume`}
+          <meshStandardMaterial color={[2, 0.15, 0.1]} emissive={[1, 0.1, 0]} />
+        </Text3D>
+        <Earth />
       </animated.mesh>
       {/* PROJECTS ICON */}
-      <animated.mesh scale={projectHover.scale}
+      <animated.mesh
+        scale={projectHover.scale}
         onPointerOver={() => setProjActive(true)}
         onPointerLeave={() => setProjActive(false)}
         onClick={projectsClickHandler}
       >
-      <Text3D
-        position={[-5.5, 2, 0]}
-        font={process.env.PUBLIC_URL + "../../Roboto_Regular.json"}
-        size={0.275}
-        height={0.065}
-        curveSegments={12}
-      >
-        Projects
-        <meshStandardMaterial color={[2, 0.15, 0.1]} emissive={[1, 0.1, 0]} />
-      </Text3D>
-      
-        
+        <Text3D
+          position={[-5.5, 2, 0]}
+          font={process.env.PUBLIC_URL + "../../Roboto_Regular.json"}
+          size={0.275}
+          height={0.065}
+          curveSegments={12}
+        >
+          Projects
+          <meshStandardMaterial color={[2, 0.15, 0.1]} emissive={[1, 0.1, 0]} />
+        </Text3D>
+
         <CraftTableHome />
       </animated.mesh>
 
@@ -109,17 +116,17 @@ const DisplayBackground = () => {
         onPointerLeave={() => setExpActive(false)}
         onClick={experienceClickHandler}
       >
-      <Text3D
-        position={[3.5, 2, 0]}
-        font={process.env.PUBLIC_URL + "../../Roboto_Regular.json"}
-        size={0.275}
-        height={0.065}
-        curveSegments={12}
-      >
-        Experience
-        <meshStandardMaterial color={[2, 0.15, 0.1]} emissive={[1, 0.1, 0]} />
-      </Text3D>
-     
+        <Text3D
+          position={[3.5, 2, 0]}
+          font={process.env.PUBLIC_URL + "../../Roboto_Regular.json"}
+          size={0.275}
+          height={0.065}
+          curveSegments={12}
+        >
+          Experience
+          <meshStandardMaterial color={[2, 0.15, 0.1]} emissive={[1, 0.1, 0]} />
+        </Text3D>
+
         <ResumeHome />
       </animated.mesh>
     </Canvas>

@@ -6,7 +6,6 @@ import { useDispatch } from "react-redux";
 import { dontDisplayParticles, displayParticles } from "../../actions";
 import DisplayBackground from "../UI/DisplayBackground";
 
-
 /**
  * This is essentially the landing page which displays the different navigation pages as icons
  * @returns the nav component
@@ -17,7 +16,6 @@ function Nav() {
   //On initialization, set display of particles off
   useEffect(() => {
     dispatch(dontDisplayParticles());
-   
   }, [dispatch]);
 
   return (
