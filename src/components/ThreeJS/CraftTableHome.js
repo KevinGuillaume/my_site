@@ -24,7 +24,7 @@ export function CraftTableHome(props) {
 
   return (
     <group {...props} dispose={null}>
-      <group ref={tableRef} rotation={[-Math.PI / 3, -0.1, 0.7]} scale={1.7} position={[-5,0.5,-1]}>
+      <group ref={tableRef} rotation={[-Math.PI / 2.5, 0, 0]} scale={1.7} position={[-5,0.5,-1]}>
         <mesh geometry={nodes.Object_2.geometry} material={materials.m_2_0} />
         <mesh geometry={nodes.Object_3.geometry} material={materials.m_2_1} />
         <mesh geometry={nodes.Object_4.geometry} material={materials.m_2_2} />

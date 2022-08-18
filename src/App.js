@@ -9,6 +9,7 @@ import Experience from "./components/Pages/Experience";
 import { Route, Routes } from "react-router-dom";
 import { useSelector } from "react-redux";
 import {Loader} from '@react-three/drei'
+import PageNotFound from "./components/UI/PageNotFound"
 
 function App() {
   const seeParticles = useSelector((state) => state.displayThemeReducer);
@@ -25,6 +26,7 @@ function App() {
           <Route path="/aboutme" element={<AboutMe />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/experience" element={<Experience />} />
+          <Route path="*" element={<PageNotFound />} />
         </Routes>
       </div>
       </Suspense>

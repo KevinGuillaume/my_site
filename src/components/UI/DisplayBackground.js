@@ -12,10 +12,7 @@ import { useSpring, animated, config } from "@react-spring/three";
 
 /**
  * This is the Home,Projects, Experience navigation, and the stars background of the home screen
- *
- * TO DO:
- *
- * Make The Different Icons become a route
+ *This file is pretty dense because a lot of helper functions are involved.
  *
  *
  * @returns
@@ -26,6 +23,7 @@ const DisplayBackground = () => {
   const [expActive, setExpActive] = useState(false);
   const [homeActive, setHomeActive] = useState(false);
 
+  //React-Spring hover animations
   const projectHover = useSpring({
     scale: projActive ? 1.15 : 1,
     config: config.wobbly,
@@ -39,19 +37,48 @@ const DisplayBackground = () => {
     config: config.wobbly,
   });
 
-  const navigate = useNavigate();
+  const navigate = useNavigate(); //Used for navigating to different pages depending on clicked model
 
+  //All these functions below are meant to deal with clicks or hovers respectively
+  //Cliks navigates to pages, and hovers are for animations
   const experienceClickHandler = () => {
     dispatch(displayParticles());
+    document.body.style.cursor = "default";
     navigate("/experience");
   };
   const projectsClickHandler = () => {
     dispatch(displayParticles());
+    document.body.style.cursor = "default";
     navigate("/projects");
   };
   const homeClickHandler = () => {
     dispatch(displayParticles());
+    document.body.style.cursor = "default";
     navigate("/aboutme");
+  };
+  const expHoverHandler = () => {
+    setExpActive(true);
+    document.body.style.cursor = "pointer";
+  };
+  const expHoverLeaveHandler = () => {
+    setExpActive(false);
+    document.body.style.cursor = "default";
+  };
+  const projHoverHandler = () => {
+    setProjActive(true);
+    document.body.style.cursor = "pointer";
+  };
+  const projHoverLeaveHandler = () => {
+    setProjActive(false);
+    document.body.style.cursor = "default";
+  };
+  const homeHoverHandler = () => {
+    setHomeActive(true);
+    document.body.style.cursor = "pointer";
+  };
+  const homeHoverLeaveHandler = () => {
+    setHomeActive(false);
+    document.body.style.cursor = "default";
   };
 
   return (
@@ -72,8 +99,8 @@ const DisplayBackground = () => {
       <animated.mesh
         className="earth-model"
         scale={homeHover.scale}
-        onPointerOver={() => setHomeActive(true)}
-        onPointerLeave={() => setHomeActive(false)}
+        onPointerOver={homeHoverHandler}
+        onPointerLeave={homeHoverLeaveHandler}
         onClick={homeClickHandler}
       >
         <Text3D
@@ -91,8 +118,8 @@ const DisplayBackground = () => {
       {/* PROJECTS ICON */}
       <animated.mesh
         scale={projectHover.scale}
-        onPointerOver={() => setProjActive(true)}
-        onPointerLeave={() => setProjActive(false)}
+        onPointerOver={projHoverHandler}
+        onPointerLeave={projHoverLeaveHandler}
         onClick={projectsClickHandler}
       >
         <Text3D
@@ -112,8 +139,8 @@ const DisplayBackground = () => {
       {/* EXPERIENCE ICON */}
       <animated.mesh
         scale={experienceHover.scale}
-        onPointerOver={() => setExpActive(true)}
-        onPointerLeave={() => setExpActive(false)}
+        onPointerOver={expHoverHandler}
+        onPointerLeave={expHoverLeaveHandler}
         onClick={experienceClickHandler}
       >
         <Text3D
