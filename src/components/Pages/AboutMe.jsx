@@ -14,7 +14,7 @@ const intro = [
   {
     title: "About Me",
     pic: "aboutme",
-    desc: "My names Kevin, and I am a Software Engineer. I first became interested in coding around 17 years old. Since then I've been interested in creating projects and interacting with different frameworks,languages, or tools. I attended Loyola University Chicago where I earned a Bachelor's degree in Computer Science, and a minor in Mathematics. When I'm not coding you can almost always find me playing basketball with some friends. I'm also a big fan of video games and I'm always looking for some new recommandations so send them my way.",
+    desc: "My names Kevin, and I am a Software Engineer. I first became interested in coding around 16 years old. Since then I've been interested in creating projects and interacting with different frameworks,languages, or tools. I attended Loyola University Chicago where I earned a Bachelor's degree in Computer Science, and a minor in Mathematics. When I'm not coding you can almost always find me playing basketball with some friends. I'm also a big fan of video games and I'm always looking for some new recommandations so send them my way.",
     url:''
   },
   {
