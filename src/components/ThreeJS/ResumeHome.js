@@ -18,7 +18,7 @@ export function ResumeHome(props) {
     const elapsedTime = clock.getElapsedTime()
 
     
-    resumeRef.current.rotation.x = elapsedTime / 2;
+    resumeRef.current.rotation.x = elapsedTime / 5;
   })
 
 

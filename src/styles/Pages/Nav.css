@@ -59,6 +59,9 @@
   bottom:10vh;
   z-index:0;
 }
+.earth-model{
+  cursor: pointer;
+}
 .sphere{
   z-index: 0;
 }
