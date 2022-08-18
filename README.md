@@ -1,6 +1,7 @@
 # My Personal Site
 *Site is live but not complete*
-
+### Info
+Portfolio website to help put my work on display!
 
 ## Original Design
 ![Screen Shot 2022-06-15 at 6 44 28 PM](https://user-images.githubusercontent.com/43580054/173960355-e6f531f0-14a0-416a-abe8-a98c35986f6c.png)
@@ -13,8 +14,7 @@
 
 
 
-## Info
-Portfolio website to help put my work on display!
+
 
 
 
