@@ -30,7 +30,7 @@ export function Earth(props) {
     <group {...props} dispose={null}>
       <group rotation={[-Math.PI / 2, 0, 0]}>
         <group rotation={[Math.PI / 2, 0, 0]}>
-          <group rotation={[-Math.PI / 2, 0, 0]} scale={1}>
+          <group rotation={[-Math.PI / 2, 0, 0]} scale={2}>
             <mesh ref={earthRef} geometry={nodes.Sphere_Material002_0.geometry} material={materials['Material.002']} />
           </group>
         </group>
