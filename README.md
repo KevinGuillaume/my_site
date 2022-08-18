@@ -25,3 +25,7 @@ Keno Kozie: Not public :/ only for company access
 
 
 Designed and created by me.
+
+
+### Stack:
+ReacJS, Redux, HTML/CSS, React Three Fiber + Drei, React Spring
