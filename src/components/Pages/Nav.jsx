@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import AnimatedPage from "../AnimationComponents/AnimatedPage";
 import { useDispatch } from "react-redux";
 import { dontDisplayParticles, displayParticles } from "../../actions";
-import DisplayEarth from "../UI/DisplayBackground";
 import DisplayBackground from "../UI/DisplayBackground";
 
 

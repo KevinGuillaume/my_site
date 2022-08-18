@@ -1,0 +1,17 @@
+.link-box {
+  display: flex;
+}
+.link-box__item {
+  margin: auto;
+  padding-left: 1%;
+  cursor: pointer;
+  font-size: 3rem;
+  transition: 0.2s ease-in-out;
+}
+.link-box__link {
+  color: white;
+  text-decoration: none;
+}
+.link-box__item:hover {
+  transform: scale(1.2);
+}

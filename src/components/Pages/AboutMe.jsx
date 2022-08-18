@@ -7,20 +7,45 @@ import PageContent from "../pageHelperComponents/PageContent";
 import BackDropContainer from "../UI/BackDropContainer";
 import AnimatedPage from "../AnimationComponents/AnimatedPage";
 import BackAndTitle from "../pageHelperComponents/BackAndTitle";
+import { useState } from "react";
+
+//This is the main tab on the about me page
+const intro = [
+  {
+    title: "About Me",
+    pic: "aboutme",
+    desc: "My names Kevin, and I am a Software Engineer. I first became interested in coding around 17 years old. Since then I've been interested in creating projects and interacting with different frameworks,languages, or tools. I attended Loyola University Chicago where I earned a Bachelor's degree in Computer Science, and a minor in Mathematics. When I'm not coding you can almost always find me playing basketball with some friends. I'm also a big fan of video games and I'm always looking for some new recommandations so send them my way.",
+    url:''
+  },
+  {
+    title: 'Contact',
+    desc: 'If you are looking to get in touch feel free to contact me from any of the links above. I will try my best to get back promptly.',
+    url: ''
+  }
+];
+
 /**
  * Home Icon page that shows a brief introduction
  * @returns AboutMe Component
  */
 function AboutMe() {
-  //This is the main tab on the about me page
-  const intro = [
-    {
-      title: "About Me",
-      pic: "aboutme",
-      desc: "I started coding around my high school days, but got a lot more into it during my senior yearof high school. Since then I've been interested in creating projects and interacting with different frameworks,languages, or tools. I graduated college a year early so that I can have time to really understand and learn concepts deeply. It's always a great and rewarding feeling seeing something you envision come to life with just lines of codes, just like this website. When I'm not coding you can find me playing basketball with some friends. I grew up playing basketball and play now recreationally or sometimes competetivly in some men's leagues. Blockchain has also been something that has caught my eye. I like to read up on current topics surround the web3 world. Oh, and I'm also a big fan of video games and I'm always looking for some new recommandations so send them my way.",
-      url:''
-    },
-  ];
+  
+
+
+  const [currTab, setCurrTab] = useState(intro[0]);
+
+  
+
+
+  //Pulls the selected tab from the PageTabMenu Components
+  const changeSelectedContent = (selectedTab) => {
+    intro.forEach((section) => {
+      if (section.title === selectedTab) {
+        //Set our current tab to the corresponding project
+        setCurrTab(section);
+      }
+    });
+  };
 
   return (
     <AnimatedPage>
@@ -28,8 +53,8 @@ function AboutMe() {
         <BackAndTitle label="Home" />
         <PageIcon iconName="home" />
         <div className="tab-and-content-container">
-          <PageTabMenu tabList={intro} />
-          <PageContent pageDetails={intro[0]} />
+          <PageTabMenu tabList={intro} onChangeSelectedTab={changeSelectedContent}/>
+          <PageContent pageDetails={currTab} />
         </div>
       </BackDropContainer>
     </AnimatedPage>

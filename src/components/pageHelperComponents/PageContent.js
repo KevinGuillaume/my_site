@@ -1,6 +1,7 @@
 import "../../styles/pageHelperStyles/PageContent.css";
 import TechList from "../TechnologyComponents/TechList";
 import { BiCodeBlock } from "react-icons/bi";
+import LinkIcons from "./LinkIcons";
 /**
  * This deals with what is rendered on each page depending on the selected tab
  * @param {*} props the pageDetails is passed in which holds the object and its specific page content title/pic/desc/technology
@@ -20,6 +21,7 @@ const PageContent = (props) => {
           <BiCodeBlock />
         </a> : ''}
       </div>
+      {content.title === 'Contact' ? <LinkIcons /> : ''}
       {showPic ? <div className={`${content.pic}-bg`}></div> : ""}
       <br />
       <div className="tab-description">{content.desc}</div>
