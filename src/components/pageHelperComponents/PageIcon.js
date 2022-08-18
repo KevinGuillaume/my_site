@@ -2,8 +2,8 @@ import "../../styles/pageHelperStyles/PageIcon.css";
 import { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
 import { Resume } from "../ThreeJS/Resume";
-import { House3D } from "../ThreeJS/House3D";
 import { CraftTable } from "../ThreeJS/CraftTable";
+import { Earth } from "../ThreeJS/Earth";
 
 /**
  * The selected icon at the top for the given page
@@ -19,7 +19,7 @@ const PageIcon = (props) => {
         <Suspense fallback={null}>
           {props.iconName === "folder" ? <CraftTable /> : ""}
           {props.iconName === "tools" ? <Resume /> : ""}
-          {props.iconName === "home" ? <House3D /> : ""}
+          {props.iconName === "home" ? <Earth /> : ""}
         </Suspense>
       </Canvas>
     </div>
