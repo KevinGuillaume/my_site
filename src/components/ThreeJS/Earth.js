@@ -14,7 +14,9 @@ import { useFrame} from "@react-three/fiber";
 export function Earth(props) {
   const { nodes, materials } = useGLTF('/earth.gltf')
 
+
   const earthRef = useRef()
+  
 
   useFrame(({clock}) => {
     const elapsedTime = clock.getElapsedTime()
@@ -22,11 +24,13 @@ export function Earth(props) {
     earthRef.current.rotation.y = elapsedTime / 25;
   })
 
+  
+
   return (
     <group {...props} dispose={null}>
       <group rotation={[-Math.PI / 2, 0, 0]}>
         <group rotation={[Math.PI / 2, 0, 0]}>
-          <group rotation={[-Math.PI / 2, 0, 0]} scale={2}>
+          <group rotation={[-Math.PI / 2, 0, 0]} scale={1}>
             <mesh ref={earthRef} geometry={nodes.Sphere_Material002_0.geometry} material={materials['Material.002']} />
           </group>
         </group>
