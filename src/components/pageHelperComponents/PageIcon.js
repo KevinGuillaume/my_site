@@ -4,7 +4,7 @@ import { Canvas } from "@react-three/fiber";
 import { Resume } from "../ThreeJS/Resume";
 import { CraftTable } from "../ThreeJS/CraftTable";
 import { Earth } from "../ThreeJS/Earth";
-import { Monitor } from "../ThreeJS/Monitor";
+import { MonitorIcon } from "../ThreeJS/MonitorIcon";
 
 /**
  * The selected icon at the top for the given page
@@ -20,7 +20,7 @@ const PageIcon = (props) => {
         <Suspense fallback={null}>
           {props.iconName === "folder" ? <CraftTable /> : ""}
           {props.iconName === "tools" ? <Resume /> : ""}
-          {props.iconName === "home" ? <Monitor /> : ""}
+          {props.iconName === "home" ? <MonitorIcon /> : ""}
         </Suspense>
       </Canvas>
     </div>

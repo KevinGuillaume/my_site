@@ -10,7 +10,7 @@ import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 import { useFrame} from "@react-three/fiber";
 
-export function Monitor(props) {
+export function MonitorIcon(props) {
   const { nodes, materials } = useGLTF('/monitor.gltf')
 
   const monitorRef = useRef()
@@ -23,7 +23,7 @@ export function Monitor(props) {
   })
   return (
     <group {...props} dispose={null} ref={monitorRef}>
-      <group rotation={[-Math.PI / 2, 0, 0]} scale={3.5} position={[0,-0.8,0]}>
+      <group rotation={[-Math.PI / 2, 0, 0]} scale={8} position={[0,-3,0]}>
         <mesh geometry={nodes.Object_2.geometry} material={materials.Monitor_01_A} />
         <mesh geometry={nodes.Object_3.geometry} material={materials.Monitor_01_B} />
       </group>

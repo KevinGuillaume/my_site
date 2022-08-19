@@ -114,8 +114,10 @@ const DisplayBackground = () => {
           {`Kevin Guillaume`}
           <meshStandardMaterial color={[2, 0.15, 0.1]} emissive={[1, 0.1, 0]} />
         </Text3D>
+
         <Monitor />
       </animated.mesh>
+
       {/* PROJECTS ICON */}
       <animated.mesh
         scale={projectHover.scale}
