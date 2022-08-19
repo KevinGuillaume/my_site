@@ -9,6 +9,7 @@ import { ResumeHome } from "../ThreeJS/ResumeHome";
 import { useDispatch } from "react-redux";
 import { displayParticles } from "../../actions";
 import { useSpring, animated, config } from "@react-spring/three";
+import { Monitor } from "../ThreeJS/Monitor";
 
 /**
  * This is the Home,Projects, Experience navigation, and the stars background of the home screen
@@ -104,7 +105,7 @@ const DisplayBackground = () => {
         onClick={homeClickHandler}
       >
         <Text3D
-          position={[-1.5, 2, 1.2]}
+          position={[-1.3, 2, 0]}
           font={process.env.PUBLIC_URL + "../../Roboto_Regular.json"}
           size={0.275}
           height={0.065}
@@ -113,7 +114,7 @@ const DisplayBackground = () => {
           {`Kevin Guillaume`}
           <meshStandardMaterial color={[2, 0.15, 0.1]} emissive={[1, 0.1, 0]} />
         </Text3D>
-        <Earth />
+        <Monitor />
       </animated.mesh>
       {/* PROJECTS ICON */}
       <animated.mesh
